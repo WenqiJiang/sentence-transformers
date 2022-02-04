@@ -83,68 +83,46 @@ def choose_train_size(index_key):
     return n_train
 
 
+def train_index_and_search(index_key, nprobe_list, topK):
+    """
+        index_key: e.g., "IVF1024,Flat", "IVF1024,PQ32"
+        nprobe_list: e.g., [1,2,4] 
+    """
 
-print("Building IVFFlat for ANNS...")
-nlist = 1024
-index_key = "IVF{},Flat".format(nlist)
-index_ivfflat = faiss.index_factory(embedding_dim, index_key)
-#quantizer = faiss.IndexFlat(embedding_dim)
-#index_ivfflat = faiss.IndexIVFFlat(quantizer, embedding_dim, nlist)
+    index = faiss.index_factory(embedding_dim, index_key)
+    xtsub = xt[:choose_train_size(index_key)]
+    print("\nTraining index {} ...".format(index_key))
+    index.train(xtsub)
+    i0 = 0
+    t0 = time.time()
+    print("\nAdding vectors to index {} ...".format(index_key))
+    for xs in matrix_slice_iterator(xb, 100000):
+        i1 = i0 + xs.shape[0]
+        print('\radd %d:%d, %.3f s' % (i0, i1, time.time() - t0), end=' ')
+        sys.stdout.flush()
+        index.add(xs)
+        i0 = i1
 
-xtsub = xt[:choose_train_size(index_key)]
-index_ivfflat.train(xtsub)
-i0 = 0
-t0 = time.time()
-for xs in matrix_slice_iterator(xb, 100000):
-    i1 = i0 + xs.shape[0]
-    print('\radd %d:%d, %.3f s' % (i0, i1, time.time() - t0), end=' ')
-    sys.stdout.flush()
-    index_ivfflat.add(xs)
-    i0 = i1
+    print("\nSearching on index {} ...".format(index_key))
+    for nprobe in nprobe_list:
+        print("\nnprobe = ", nprobe)
+        index.nprobe = nprobe
+        D, I = index.search(xq, topK)
 
-for i in range(10):
-    nprobe = int(2 ** i)
-    print("\nnprobe = ", nprobe)
-    index_ivfflat.nprobe = nprobe
-    topK = 100
-    D, I = index_ivfflat.search(xq, topK)
+        for rank in 1, 10, 100:
+            if rank <= topK:
+                n_ok = (I[:, :rank] == I_gt[:, :1]).sum()
+                print("R@{} = {:.4f}".format(rank, (n_ok / float(nq))))
+        if topK > 100:
+            n_ok = (I[:, :topK] == I_gt[:, :1]).sum()
+            print("R@{} = {:.4f}".format(topK, (n_ok / float(nq))))
 
-    for rank in 1, 10, 100:
-        if rank <= topK:
-            n_ok = (I[:, :rank] == I_gt[:, :1]).sum()
-            print("R@{} = {:.4f}".format(rank, (n_ok / float(nq))))
-# print("Distance (ground truth): ", D_gt[:10])
-#print("Indices (ground truth): ", I_gt[:10])
-
-
-
-print("Building IVF-PQ (16 byte quantization) for ANNS...")
-nlist = 1024
-index_key = "IVF{},PQ16".format(nlist)
-index_ivfpq = faiss.index_factory(embedding_dim, index_key)
-
-xtsub = xt[:choose_train_size(index_key)]
-index_ivfpq.train(xtsub)
-i0 = 0
-t0 = time.time()
-for xs in matrix_slice_iterator(xb, 100000):
-    i1 = i0 + xs.shape[0]
-    print('\radd %d:%d, %.3f s' % (i0, i1, time.time() - t0), end=' ')
-    sys.stdout.flush()
-    index_ivfpq.add(xs)
-    i0 = i1
-
-for i in range(10):
-    nprobe = int(2 ** i)
-    print("\nnprobe = ", nprobe)
-    index_ivfpq.nprobe = nprobe
-    topK = 100
-    D, I = index_ivfpq.search(xq, topK)
-
-    for rank in 1, 10, 100:
-        if rank <= topK:
-            n_ok = (I[:, :rank] == I_gt[:, :1]).sum()
-            print("R@{} = {:.4f}".format(rank, (n_ok / float(nq))))
+nprobe_list = [int(2 ** i) for i in range(10)]
+train_index_and_search("IVF1024,Flat", nprobe_list, topK=100)
+train_index_and_search("IVF1024,PQ16", nprobe_list, topK=100)
+train_index_and_search("IVF1024,PQ32", nprobe_list, topK=100)
+train_index_and_search("IVF1024,PQ64", nprobe_list, topK=100)
+train_index_and_search("IVF1024,PQ128", nprobe_list, topK=100)
 
 
 
