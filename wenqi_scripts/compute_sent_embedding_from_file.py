@@ -1,5 +1,7 @@
 import numpy as np
+import torch
 import time
+import sys
 import os
 
 from sentence_transformers import SentenceTransformer
@@ -7,21 +9,23 @@ from sentence_transformers import SentenceTransformer
 #model = SentenceTransformer('all-MiniLM-L6-v2')
 model = SentenceTransformer('/home/wejiang/.cache/torch/sentence_transformers/sentence-transformers_all-MiniLM-L6-v2')
 
+# Wenqi: Seems the SBERT multi-GPU flow has some flow
+enable_multi_GPU = False
+device_num = 4
+
 fname_ls = []
-for i in range(64):
-    if i < 10:
-        fname = 'c4-train.000{}-of-00512.txt'.format('0' + str(i))
-    else:
-        fname = 'c4-train.000{}-of-00512.txt'.format(str(i))
-    fname_ls.append(fname)
+for i in range(1):
+    fname = 'c4-train.00{}-of-01024.txt'.format(str(i).zfill(3))
+    fname_ls.append(fname) 
 print("File list: ", fname_ls)
-# fname_ls = ['c4-train.00000-of-00512.txt']
+# fname_ls = ['c4-train.00000-of-01024.txt']
 fname_out_ls = [fname[:-len('.txt')] + '.data' for fname in fname_ls]
-dir_in = '../data/plain_c4/realnewslike'
-dir_out = '../data/computed_embeddings/realnewslike'
+dir_in = '../data/plain_c4/en'
+dir_out = '../data/computed_embeddings/en'
 
 for i in range(len(fname_ls)):
     print("Processing ", fname)
+    sys.stdout.flush()
     fname = fname_ls[i]
     fname_out = fname_out_ls[i]
     sentences = []
@@ -30,6 +34,8 @@ for i in range(len(fname_ls)):
             if line[-len('\n'):] == '\n':
                 line = line[:-len('\n')]
             sentences.append(line)
+    sentences = sentences
+    print("Finished loading ", fname)
     
     print_num = 5
     print("Example sentences:")
@@ -40,7 +46,20 @@ for i in range(len(fname_ls)):
     # Sentences are encoded by calling model.encode()
     # default batch_size = 32
     t0 = time.time()
-    sentence_embeddings = model.encode(sentences, batch_size=32)
+    if not enable_multi_GPU:
+        if torch.cuda.is_available():
+            target_devices = ['cuda:{}'.format(i) for i in range(torch.cuda.device_count())][4]
+        else:
+            device = 'cpu'
+        sentence_embeddings = model.encode(sentences, batch_size = 128)
+    else:
+        if torch.cuda.is_available():
+            target_devices = ['cuda:{}'.format(i) for i in range(torch.cuda.device_count())]
+        # Wenqi: use subset of first few devices
+        target_devices = target_devices[:device_num]
+        pool = model.start_multi_process_pool(target_devices)
+        model.encode_multi_process(sentences, pool, batch_size = 128)
+        model.stop_multi_process_pool(pool)
     t1 = time.time()
     
     print("\nComputed embedding shape: {}".format(sentence_embeddings.shape))
@@ -59,3 +78,4 @@ for i in range(len(fname_ls)):
         print("Embedding:", embedding)
         print("Sum ||x||2:", np.sum(np.square(embedding)))
         print("")
+    sys.stdout.flush()

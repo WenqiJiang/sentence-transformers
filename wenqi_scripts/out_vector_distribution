@@ -1,0 +1,1069 @@
+ 0 th file, 0 th accumulated vector  1 th file, 590186 th accumulated vector  2 th file, 1182053 th accumulated vector  3 th file, 1772052 th accumulated vector  4 th file, 2366346 th accumulated vector  5 th file, 2958045 th accumulated vector  6 th file, 3550097 th accumulated vector  7 th file, 4139027 th accumulated vector  8 th file, 4740043 th accumulated vector  9 th file, 5338619 th accumulated vector  10 th file, 5930925 th accumulated vector  11 th file, 6519861 th accumulated vector  12 th file, 7120003 th accumulated vector  13 th file, 7707978 th accumulated vector  14 th file, 8294458 th accumulated vector  15 th file, 8889302 th accumulated vector  16 th file, 9481426 th accumulated vector 
+Statistics from 10000000 vectors
+dim = 0	 Pos: 50.13 %% Neg: 49.87 %%
+dim = 1	 Pos: 58.25 %% Neg: 41.75 %%
+   The distribution of the 1 th dimension looks unbalanced! diff = 16.50 %
+dim = 2	 Pos: 54.03 %% Neg: 45.97 %%
+   The distribution of the 2 th dimension looks unbalanced! diff = 8.05 %
+dim = 3	 Pos: 54.62 %% Neg: 45.38 %%
+   The distribution of the 3 th dimension looks unbalanced! diff = 9.23 %
+dim = 4	 Pos: 59.77 %% Neg: 40.23 %%
+   The distribution of the 4 th dimension looks unbalanced! diff = 19.54 %
+dim = 5	 Pos: 59.57 %% Neg: 40.43 %%
+   The distribution of the 5 th dimension looks unbalanced! diff = 19.14 %
+dim = 6	 Pos: 54.92 %% Neg: 45.08 %%
+   The distribution of the 6 th dimension looks unbalanced! diff = 9.85 %
+dim = 7	 Pos: 44.07 %% Neg: 55.93 %%
+   The distribution of the 7 th dimension looks unbalanced! diff = 11.86 %
+dim = 8	 Pos: 43.10 %% Neg: 56.90 %%
+   The distribution of the 8 th dimension looks unbalanced! diff = 13.80 %
+dim = 9	 Pos: 48.07 %% Neg: 51.93 %%
+dim = 10	 Pos: 54.06 %% Neg: 45.94 %%
+   The distribution of the 10 th dimension looks unbalanced! diff = 8.12 %
+dim = 11	 Pos: 62.85 %% Neg: 37.15 %%
+   The distribution of the 11 th dimension looks unbalanced! diff = 25.70 %
+dim = 12	 Pos: 47.06 %% Neg: 52.94 %%
+   The distribution of the 12 th dimension looks unbalanced! diff = 5.88 %
+dim = 13	 Pos: 48.78 %% Neg: 51.22 %%
+dim = 14	 Pos: 51.72 %% Neg: 48.28 %%
+dim = 15	 Pos: 48.52 %% Neg: 51.48 %%
+dim = 16	 Pos: 51.80 %% Neg: 48.20 %%
+dim = 17	 Pos: 34.24 %% Neg: 65.76 %%
+   The distribution of the 17 th dimension looks unbalanced! diff = 31.52 %
+dim = 18	 Pos: 40.32 %% Neg: 59.68 %%
+   The distribution of the 18 th dimension looks unbalanced! diff = 19.36 %
+dim = 19	 Pos: 48.02 %% Neg: 51.98 %%
+dim = 20	 Pos: 41.55 %% Neg: 58.45 %%
+   The distribution of the 20 th dimension looks unbalanced! diff = 16.90 %
+dim = 21	 Pos: 51.03 %% Neg: 48.97 %%
+dim = 22	 Pos: 60.95 %% Neg: 39.05 %%
+   The distribution of the 22 th dimension looks unbalanced! diff = 21.90 %
+dim = 23	 Pos: 60.72 %% Neg: 39.28 %%
+   The distribution of the 23 th dimension looks unbalanced! diff = 21.44 %
+dim = 24	 Pos: 53.09 %% Neg: 46.91 %%
+   The distribution of the 24 th dimension looks unbalanced! diff = 6.18 %
+dim = 25	 Pos: 52.92 %% Neg: 47.08 %%
+   The distribution of the 25 th dimension looks unbalanced! diff = 5.83 %
+dim = 26	 Pos: 40.99 %% Neg: 59.01 %%
+   The distribution of the 26 th dimension looks unbalanced! diff = 18.02 %
+dim = 27	 Pos: 52.37 %% Neg: 47.63 %%
+dim = 28	 Pos: 49.62 %% Neg: 50.38 %%
+dim = 29	 Pos: 43.98 %% Neg: 56.02 %%
+   The distribution of the 29 th dimension looks unbalanced! diff = 12.04 %
+dim = 30	 Pos: 46.12 %% Neg: 53.88 %%
+   The distribution of the 30 th dimension looks unbalanced! diff = 7.77 %
+dim = 31	 Pos: 61.00 %% Neg: 39.00 %%
+   The distribution of the 31 th dimension looks unbalanced! diff = 22.01 %
+dim = 32	 Pos: 52.29 %% Neg: 47.71 %%
+dim = 33	 Pos: 59.72 %% Neg: 40.28 %%
+   The distribution of the 33 th dimension looks unbalanced! diff = 19.45 %
+dim = 34	 Pos: 51.76 %% Neg: 48.24 %%
+dim = 35	 Pos: 59.25 %% Neg: 40.75 %%
+   The distribution of the 35 th dimension looks unbalanced! diff = 18.49 %
+dim = 36	 Pos: 60.29 %% Neg: 39.71 %%
+   The distribution of the 36 th dimension looks unbalanced! diff = 20.57 %
+dim = 37	 Pos: 57.42 %% Neg: 42.58 %%
+   The distribution of the 37 th dimension looks unbalanced! diff = 14.83 %
+dim = 38	 Pos: 57.73 %% Neg: 42.27 %%
+   The distribution of the 38 th dimension looks unbalanced! diff = 15.47 %
+dim = 39	 Pos: 47.35 %% Neg: 52.65 %%
+   The distribution of the 39 th dimension looks unbalanced! diff = 5.29 %
+dim = 40	 Pos: 55.93 %% Neg: 44.07 %%
+   The distribution of the 40 th dimension looks unbalanced! diff = 11.85 %
+dim = 41	 Pos: 29.48 %% Neg: 70.52 %%
+   The distribution of the 41 th dimension looks unbalanced! diff = 41.05 %
+dim = 42	 Pos: 48.77 %% Neg: 51.23 %%
+dim = 43	 Pos: 55.85 %% Neg: 44.15 %%
+   The distribution of the 43 th dimension looks unbalanced! diff = 11.71 %
+dim = 44	 Pos: 39.25 %% Neg: 60.75 %%
+   The distribution of the 44 th dimension looks unbalanced! diff = 21.51 %
+dim = 45	 Pos: 40.22 %% Neg: 59.78 %%
+   The distribution of the 45 th dimension looks unbalanced! diff = 19.56 %
+dim = 46	 Pos: 45.79 %% Neg: 54.21 %%
+   The distribution of the 46 th dimension looks unbalanced! diff = 8.42 %
+dim = 47	 Pos: 38.67 %% Neg: 61.33 %%
+   The distribution of the 47 th dimension looks unbalanced! diff = 22.66 %
+dim = 48	 Pos: 55.92 %% Neg: 44.08 %%
+   The distribution of the 48 th dimension looks unbalanced! diff = 11.84 %
+dim = 49	 Pos: 49.53 %% Neg: 50.47 %%
+dim = 50	 Pos: 44.27 %% Neg: 55.73 %%
+   The distribution of the 50 th dimension looks unbalanced! diff = 11.45 %
+dim = 51	 Pos: 43.33 %% Neg: 56.67 %%
+   The distribution of the 51 th dimension looks unbalanced! diff = 13.34 %
+dim = 52	 Pos: 50.82 %% Neg: 49.18 %%
+dim = 53	 Pos: 34.77 %% Neg: 65.23 %%
+   The distribution of the 53 th dimension looks unbalanced! diff = 30.47 %
+dim = 54	 Pos: 59.45 %% Neg: 40.55 %%
+   The distribution of the 54 th dimension looks unbalanced! diff = 18.90 %
+dim = 55	 Pos: 56.16 %% Neg: 43.84 %%
+   The distribution of the 55 th dimension looks unbalanced! diff = 12.32 %
+dim = 56	 Pos: 43.27 %% Neg: 56.73 %%
+   The distribution of the 56 th dimension looks unbalanced! diff = 13.47 %
+dim = 57	 Pos: 45.54 %% Neg: 54.46 %%
+   The distribution of the 57 th dimension looks unbalanced! diff = 8.92 %
+dim = 58	 Pos: 60.00 %% Neg: 40.00 %%
+   The distribution of the 58 th dimension looks unbalanced! diff = 20.00 %
+dim = 59	 Pos: 54.74 %% Neg: 45.26 %%
+   The distribution of the 59 th dimension looks unbalanced! diff = 9.49 %
+dim = 60	 Pos: 51.39 %% Neg: 48.61 %%
+dim = 61	 Pos: 43.49 %% Neg: 56.51 %%
+   The distribution of the 61 th dimension looks unbalanced! diff = 13.01 %
+dim = 62	 Pos: 31.31 %% Neg: 68.69 %%
+   The distribution of the 62 th dimension looks unbalanced! diff = 37.38 %
+dim = 63	 Pos: 69.16 %% Neg: 30.84 %%
+   The distribution of the 63 th dimension looks unbalanced! diff = 38.32 %
+dim = 64	 Pos: 60.06 %% Neg: 39.94 %%
+   The distribution of the 64 th dimension looks unbalanced! diff = 20.13 %
+dim = 65	 Pos: 48.43 %% Neg: 51.57 %%
+dim = 66	 Pos: 40.94 %% Neg: 59.06 %%
+   The distribution of the 66 th dimension looks unbalanced! diff = 18.13 %
+dim = 67	 Pos: 51.89 %% Neg: 48.11 %%
+dim = 68	 Pos: 38.94 %% Neg: 61.06 %%
+   The distribution of the 68 th dimension looks unbalanced! diff = 22.11 %
+dim = 69	 Pos: 49.78 %% Neg: 50.22 %%
+dim = 70	 Pos: 60.71 %% Neg: 39.29 %%
+   The distribution of the 70 th dimension looks unbalanced! diff = 21.42 %
+dim = 71	 Pos: 47.97 %% Neg: 52.03 %%
+dim = 72	 Pos: 50.52 %% Neg: 49.48 %%
+dim = 73	 Pos: 45.51 %% Neg: 54.49 %%
+   The distribution of the 73 th dimension looks unbalanced! diff = 8.98 %
+dim = 74	 Pos: 54.17 %% Neg: 45.83 %%
+   The distribution of the 74 th dimension looks unbalanced! diff = 8.34 %
+dim = 75	 Pos: 49.95 %% Neg: 50.05 %%
+dim = 76	 Pos: 63.55 %% Neg: 36.45 %%
+   The distribution of the 76 th dimension looks unbalanced! diff = 27.11 %
+dim = 77	 Pos: 57.42 %% Neg: 42.58 %%
+   The distribution of the 77 th dimension looks unbalanced! diff = 14.83 %
+dim = 78	 Pos: 67.57 %% Neg: 32.43 %%
+   The distribution of the 78 th dimension looks unbalanced! diff = 35.15 %
+dim = 79	 Pos: 37.34 %% Neg: 62.66 %%
+   The distribution of the 79 th dimension looks unbalanced! diff = 25.31 %
+dim = 80	 Pos: 53.03 %% Neg: 46.97 %%
+   The distribution of the 80 th dimension looks unbalanced! diff = 6.06 %
+dim = 81	 Pos: 34.04 %% Neg: 65.96 %%
+   The distribution of the 81 th dimension looks unbalanced! diff = 31.92 %
+dim = 82	 Pos: 43.49 %% Neg: 56.51 %%
+   The distribution of the 82 th dimension looks unbalanced! diff = 13.02 %
+dim = 83	 Pos: 53.57 %% Neg: 46.43 %%
+   The distribution of the 83 th dimension looks unbalanced! diff = 7.14 %
+dim = 84	 Pos: 52.00 %% Neg: 48.00 %%
+dim = 85	 Pos: 42.55 %% Neg: 57.45 %%
+   The distribution of the 85 th dimension looks unbalanced! diff = 14.90 %
+dim = 86	 Pos: 49.77 %% Neg: 50.23 %%
+dim = 87	 Pos: 34.22 %% Neg: 65.78 %%
+   The distribution of the 87 th dimension looks unbalanced! diff = 31.55 %
+dim = 88	 Pos: 53.95 %% Neg: 46.05 %%
+   The distribution of the 88 th dimension looks unbalanced! diff = 7.89 %
+dim = 89	 Pos: 56.32 %% Neg: 43.68 %%
+   The distribution of the 89 th dimension looks unbalanced! diff = 12.63 %
+dim = 90	 Pos: 42.27 %% Neg: 57.73 %%
+   The distribution of the 90 th dimension looks unbalanced! diff = 15.47 %
+dim = 91	 Pos: 38.90 %% Neg: 61.10 %%
+   The distribution of the 91 th dimension looks unbalanced! diff = 22.20 %
+dim = 92	 Pos: 55.23 %% Neg: 44.77 %%
+   The distribution of the 92 th dimension looks unbalanced! diff = 10.45 %
+dim = 93	 Pos: 54.75 %% Neg: 45.25 %%
+   The distribution of the 93 th dimension looks unbalanced! diff = 9.49 %
+dim = 94	 Pos: 39.76 %% Neg: 60.24 %%
+   The distribution of the 94 th dimension looks unbalanced! diff = 20.49 %
+dim = 95	 Pos: 54.16 %% Neg: 45.84 %%
+   The distribution of the 95 th dimension looks unbalanced! diff = 8.31 %
+dim = 96	 Pos: 35.96 %% Neg: 64.04 %%
+   The distribution of the 96 th dimension looks unbalanced! diff = 28.08 %
+dim = 97	 Pos: 48.54 %% Neg: 51.46 %%
+dim = 98	 Pos: 36.91 %% Neg: 63.09 %%
+   The distribution of the 98 th dimension looks unbalanced! diff = 26.18 %
+dim = 99	 Pos: 81.77 %% Neg: 18.23 %%
+   The distribution of the 99 th dimension looks unbalanced! diff = 63.53 %
+dim = 100	 Pos: 45.35 %% Neg: 54.65 %%
+   The distribution of the 100 th dimension looks unbalanced! diff = 9.29 %
+dim = 101	 Pos: 65.76 %% Neg: 34.24 %%
+   The distribution of the 101 th dimension looks unbalanced! diff = 31.52 %
+dim = 102	 Pos: 54.21 %% Neg: 45.79 %%
+   The distribution of the 102 th dimension looks unbalanced! diff = 8.43 %
+dim = 103	 Pos: 42.71 %% Neg: 57.29 %%
+   The distribution of the 103 th dimension looks unbalanced! diff = 14.57 %
+dim = 104	 Pos: 42.56 %% Neg: 57.44 %%
+   The distribution of the 104 th dimension looks unbalanced! diff = 14.88 %
+dim = 105	 Pos: 32.18 %% Neg: 67.82 %%
+   The distribution of the 105 th dimension looks unbalanced! diff = 35.65 %
+dim = 106	 Pos: 46.86 %% Neg: 53.14 %%
+   The distribution of the 106 th dimension looks unbalanced! diff = 6.28 %
+dim = 107	 Pos: 52.24 %% Neg: 47.76 %%
+dim = 108	 Pos: 44.49 %% Neg: 55.51 %%
+   The distribution of the 108 th dimension looks unbalanced! diff = 11.02 %
+dim = 109	 Pos: 45.91 %% Neg: 54.09 %%
+   The distribution of the 109 th dimension looks unbalanced! diff = 8.18 %
+dim = 110	 Pos: 41.49 %% Neg: 58.51 %%
+   The distribution of the 110 th dimension looks unbalanced! diff = 17.02 %
+dim = 111	 Pos: 49.46 %% Neg: 50.54 %%
+dim = 112	 Pos: 52.41 %% Neg: 47.59 %%
+dim = 113	 Pos: 56.08 %% Neg: 43.92 %%
+   The distribution of the 113 th dimension looks unbalanced! diff = 12.16 %
+dim = 114	 Pos: 53.76 %% Neg: 46.24 %%
+   The distribution of the 114 th dimension looks unbalanced! diff = 7.52 %
+dim = 115	 Pos: 56.41 %% Neg: 43.59 %%
+   The distribution of the 115 th dimension looks unbalanced! diff = 12.82 %
+dim = 116	 Pos: 44.91 %% Neg: 55.09 %%
+   The distribution of the 116 th dimension looks unbalanced! diff = 10.19 %
+dim = 117	 Pos: 56.51 %% Neg: 43.49 %%
+   The distribution of the 117 th dimension looks unbalanced! diff = 13.02 %
+dim = 118	 Pos: 49.69 %% Neg: 50.31 %%
+dim = 119	 Pos: 49.12 %% Neg: 50.88 %%
+dim = 120	 Pos: 62.01 %% Neg: 37.99 %%
+   The distribution of the 120 th dimension looks unbalanced! diff = 24.02 %
+dim = 121	 Pos: 64.28 %% Neg: 35.72 %%
+   The distribution of the 121 th dimension looks unbalanced! diff = 28.57 %
+dim = 122	 Pos: 38.55 %% Neg: 61.45 %%
+   The distribution of the 122 th dimension looks unbalanced! diff = 22.90 %
+dim = 123	 Pos: 57.49 %% Neg: 42.51 %%
+   The distribution of the 123 th dimension looks unbalanced! diff = 14.98 %
+dim = 124	 Pos: 38.87 %% Neg: 61.13 %%
+   The distribution of the 124 th dimension looks unbalanced! diff = 22.25 %
+dim = 125	 Pos: 39.58 %% Neg: 60.42 %%
+   The distribution of the 125 th dimension looks unbalanced! diff = 20.83 %
+dim = 126	 Pos: 41.83 %% Neg: 58.17 %%
+   The distribution of the 126 th dimension looks unbalanced! diff = 16.34 %
+dim = 127	 Pos: 13.04 %% Neg: 86.96 %%
+   The distribution of the 127 th dimension looks unbalanced! diff = 73.93 %
+dim = 128	 Pos: 60.10 %% Neg: 39.90 %%
+   The distribution of the 128 th dimension looks unbalanced! diff = 20.20 %
+dim = 129	 Pos: 52.49 %% Neg: 47.51 %%
+dim = 130	 Pos: 60.79 %% Neg: 39.21 %%
+   The distribution of the 130 th dimension looks unbalanced! diff = 21.58 %
+dim = 131	 Pos: 60.09 %% Neg: 39.91 %%
+   The distribution of the 131 th dimension looks unbalanced! diff = 20.18 %
+dim = 132	 Pos: 59.59 %% Neg: 40.41 %%
+   The distribution of the 132 th dimension looks unbalanced! diff = 19.17 %
+dim = 133	 Pos: 49.84 %% Neg: 50.16 %%
+dim = 134	 Pos: 33.98 %% Neg: 66.02 %%
+   The distribution of the 134 th dimension looks unbalanced! diff = 32.04 %
+dim = 135	 Pos: 43.87 %% Neg: 56.13 %%
+   The distribution of the 135 th dimension looks unbalanced! diff = 12.25 %
+dim = 136	 Pos: 46.43 %% Neg: 53.57 %%
+   The distribution of the 136 th dimension looks unbalanced! diff = 7.13 %
+dim = 137	 Pos: 48.51 %% Neg: 51.49 %%
+dim = 138	 Pos: 47.23 %% Neg: 52.77 %%
+   The distribution of the 138 th dimension looks unbalanced! diff = 5.53 %
+dim = 139	 Pos: 49.01 %% Neg: 50.99 %%
+dim = 140	 Pos: 51.11 %% Neg: 48.89 %%
+dim = 141	 Pos: 42.56 %% Neg: 57.44 %%
+   The distribution of the 141 th dimension looks unbalanced! diff = 14.88 %
+dim = 142	 Pos: 53.34 %% Neg: 46.66 %%
+   The distribution of the 142 th dimension looks unbalanced! diff = 6.68 %
+dim = 143	 Pos: 47.71 %% Neg: 52.29 %%
+dim = 144	 Pos: 30.32 %% Neg: 69.68 %%
+   The distribution of the 144 th dimension looks unbalanced! diff = 39.37 %
+dim = 145	 Pos: 65.40 %% Neg: 34.60 %%
+   The distribution of the 145 th dimension looks unbalanced! diff = 30.81 %
+dim = 146	 Pos: 50.28 %% Neg: 49.72 %%
+dim = 147	 Pos: 49.41 %% Neg: 50.59 %%
+dim = 148	 Pos: 57.85 %% Neg: 42.15 %%
+   The distribution of the 148 th dimension looks unbalanced! diff = 15.70 %
+dim = 149	 Pos: 53.82 %% Neg: 46.18 %%
+   The distribution of the 149 th dimension looks unbalanced! diff = 7.65 %
+dim = 150	 Pos: 43.53 %% Neg: 56.47 %%
+   The distribution of the 150 th dimension looks unbalanced! diff = 12.94 %
+dim = 151	 Pos: 50.30 %% Neg: 49.70 %%
+dim = 152	 Pos: 50.33 %% Neg: 49.67 %%
+dim = 153	 Pos: 52.45 %% Neg: 47.55 %%
+dim = 154	 Pos: 58.70 %% Neg: 41.30 %%
+   The distribution of the 154 th dimension looks unbalanced! diff = 17.39 %
+dim = 155	 Pos: 48.47 %% Neg: 51.53 %%
+dim = 156	 Pos: 62.55 %% Neg: 37.45 %%
+   The distribution of the 156 th dimension looks unbalanced! diff = 25.10 %
+dim = 157	 Pos: 69.59 %% Neg: 30.41 %%
+   The distribution of the 157 th dimension looks unbalanced! diff = 39.18 %
+dim = 158	 Pos: 39.02 %% Neg: 60.98 %%
+   The distribution of the 158 th dimension looks unbalanced! diff = 21.96 %
+dim = 159	 Pos: 62.70 %% Neg: 37.30 %%
+   The distribution of the 159 th dimension looks unbalanced! diff = 25.41 %
+dim = 160	 Pos: 46.96 %% Neg: 53.04 %%
+   The distribution of the 160 th dimension looks unbalanced! diff = 6.08 %
+dim = 161	 Pos: 46.83 %% Neg: 53.17 %%
+   The distribution of the 161 th dimension looks unbalanced! diff = 6.33 %
+dim = 162	 Pos: 56.43 %% Neg: 43.57 %%
+   The distribution of the 162 th dimension looks unbalanced! diff = 12.85 %
+dim = 163	 Pos: 65.48 %% Neg: 34.52 %%
+   The distribution of the 163 th dimension looks unbalanced! diff = 30.97 %
+dim = 164	 Pos: 43.81 %% Neg: 56.19 %%
+   The distribution of the 164 th dimension looks unbalanced! diff = 12.38 %
+dim = 165	 Pos: 31.94 %% Neg: 68.06 %%
+   The distribution of the 165 th dimension looks unbalanced! diff = 36.11 %
+dim = 166	 Pos: 45.68 %% Neg: 54.32 %%
+   The distribution of the 166 th dimension looks unbalanced! diff = 8.65 %
+dim = 167	 Pos: 47.85 %% Neg: 52.15 %%
+dim = 168	 Pos: 42.67 %% Neg: 57.33 %%
+   The distribution of the 168 th dimension looks unbalanced! diff = 14.66 %
+dim = 169	 Pos: 58.88 %% Neg: 41.12 %%
+   The distribution of the 169 th dimension looks unbalanced! diff = 17.75 %
+dim = 170	 Pos: 43.24 %% Neg: 56.76 %%
+   The distribution of the 170 th dimension looks unbalanced! diff = 13.53 %
+dim = 171	 Pos: 52.11 %% Neg: 47.89 %%
+dim = 172	 Pos: 47.01 %% Neg: 52.99 %%
+   The distribution of the 172 th dimension looks unbalanced! diff = 5.98 %
+dim = 173	 Pos: 57.00 %% Neg: 43.00 %%
+   The distribution of the 173 th dimension looks unbalanced! diff = 14.01 %
+dim = 174	 Pos: 59.40 %% Neg: 40.60 %%
+   The distribution of the 174 th dimension looks unbalanced! diff = 18.80 %
+dim = 175	 Pos: 47.44 %% Neg: 52.56 %%
+   The distribution of the 175 th dimension looks unbalanced! diff = 5.11 %
+dim = 176	 Pos: 49.76 %% Neg: 50.24 %%
+dim = 177	 Pos: 56.39 %% Neg: 43.61 %%
+   The distribution of the 177 th dimension looks unbalanced! diff = 12.77 %
+dim = 178	 Pos: 48.49 %% Neg: 51.51 %%
+dim = 179	 Pos: 61.38 %% Neg: 38.62 %%
+   The distribution of the 179 th dimension looks unbalanced! diff = 22.76 %
+dim = 180	 Pos: 45.23 %% Neg: 54.77 %%
+   The distribution of the 180 th dimension looks unbalanced! diff = 9.53 %
+dim = 181	 Pos: 40.61 %% Neg: 59.39 %%
+   The distribution of the 181 th dimension looks unbalanced! diff = 18.79 %
+dim = 182	 Pos: 52.88 %% Neg: 47.12 %%
+   The distribution of the 182 th dimension looks unbalanced! diff = 5.77 %
+dim = 183	 Pos: 49.03 %% Neg: 50.97 %%
+dim = 184	 Pos: 50.57 %% Neg: 49.43 %%
+dim = 185	 Pos: 50.04 %% Neg: 49.96 %%
+dim = 186	 Pos: 66.01 %% Neg: 33.99 %%
+   The distribution of the 186 th dimension looks unbalanced! diff = 32.03 %
+dim = 187	 Pos: 49.88 %% Neg: 50.12 %%
+dim = 188	 Pos: 55.54 %% Neg: 44.46 %%
+   The distribution of the 188 th dimension looks unbalanced! diff = 11.08 %
+dim = 189	 Pos: 56.44 %% Neg: 43.56 %%
+   The distribution of the 189 th dimension looks unbalanced! diff = 12.88 %
+dim = 190	 Pos: 39.53 %% Neg: 60.47 %%
+   The distribution of the 190 th dimension looks unbalanced! diff = 20.94 %
+dim = 191	 Pos: 55.44 %% Neg: 44.56 %%
+   The distribution of the 191 th dimension looks unbalanced! diff = 10.88 %
+dim = 192	 Pos: 33.68 %% Neg: 66.32 %%
+   The distribution of the 192 th dimension looks unbalanced! diff = 32.64 %
+dim = 193	 Pos: 56.79 %% Neg: 43.21 %%
+   The distribution of the 193 th dimension looks unbalanced! diff = 13.59 %
+dim = 194	 Pos: 52.28 %% Neg: 47.72 %%
+dim = 195	 Pos: 48.23 %% Neg: 51.77 %%
+dim = 196	 Pos: 45.80 %% Neg: 54.20 %%
+   The distribution of the 196 th dimension looks unbalanced! diff = 8.39 %
+dim = 197	 Pos: 55.13 %% Neg: 44.87 %%
+   The distribution of the 197 th dimension looks unbalanced! diff = 10.26 %
+dim = 198	 Pos: 44.41 %% Neg: 55.59 %%
+   The distribution of the 198 th dimension looks unbalanced! diff = 11.17 %
+dim = 199	 Pos: 52.30 %% Neg: 47.70 %%
+dim = 200	 Pos: 43.67 %% Neg: 56.33 %%
+   The distribution of the 200 th dimension looks unbalanced! diff = 12.65 %
+dim = 201	 Pos: 43.32 %% Neg: 56.68 %%
+   The distribution of the 201 th dimension looks unbalanced! diff = 13.36 %
+dim = 202	 Pos: 32.66 %% Neg: 67.34 %%
+   The distribution of the 202 th dimension looks unbalanced! diff = 34.69 %
+dim = 203	 Pos: 43.74 %% Neg: 56.26 %%
+   The distribution of the 203 th dimension looks unbalanced! diff = 12.52 %
+dim = 204	 Pos: 46.03 %% Neg: 53.97 %%
+   The distribution of the 204 th dimension looks unbalanced! diff = 7.94 %
+dim = 205	 Pos: 52.44 %% Neg: 47.56 %%
+dim = 206	 Pos: 63.42 %% Neg: 36.58 %%
+   The distribution of the 206 th dimension looks unbalanced! diff = 26.83 %
+dim = 207	 Pos: 47.84 %% Neg: 52.16 %%
+dim = 208	 Pos: 53.02 %% Neg: 46.98 %%
+   The distribution of the 208 th dimension looks unbalanced! diff = 6.04 %
+dim = 209	 Pos: 37.92 %% Neg: 62.08 %%
+   The distribution of the 209 th dimension looks unbalanced! diff = 24.15 %
+dim = 210	 Pos: 61.20 %% Neg: 38.80 %%
+   The distribution of the 210 th dimension looks unbalanced! diff = 22.40 %
+dim = 211	 Pos: 53.58 %% Neg: 46.42 %%
+   The distribution of the 211 th dimension looks unbalanced! diff = 7.15 %
+dim = 212	 Pos: 61.51 %% Neg: 38.49 %%
+   The distribution of the 212 th dimension looks unbalanced! diff = 23.01 %
+dim = 213	 Pos: 46.30 %% Neg: 53.70 %%
+   The distribution of the 213 th dimension looks unbalanced! diff = 7.40 %
+dim = 214	 Pos: 61.33 %% Neg: 38.67 %%
+   The distribution of the 214 th dimension looks unbalanced! diff = 22.67 %
+dim = 215	 Pos: 35.37 %% Neg: 64.63 %%
+   The distribution of the 215 th dimension looks unbalanced! diff = 29.27 %
+dim = 216	 Pos: 40.08 %% Neg: 59.92 %%
+   The distribution of the 216 th dimension looks unbalanced! diff = 19.84 %
+dim = 217	 Pos: 57.11 %% Neg: 42.89 %%
+   The distribution of the 217 th dimension looks unbalanced! diff = 14.22 %
+dim = 218	 Pos: 40.42 %% Neg: 59.58 %%
+   The distribution of the 218 th dimension looks unbalanced! diff = 19.17 %
+dim = 219	 Pos: 48.71 %% Neg: 51.29 %%
+dim = 220	 Pos: 56.48 %% Neg: 43.52 %%
+   The distribution of the 220 th dimension looks unbalanced! diff = 12.97 %
+dim = 221	 Pos: 52.89 %% Neg: 47.11 %%
+   The distribution of the 221 th dimension looks unbalanced! diff = 5.78 %
+dim = 222	 Pos: 36.52 %% Neg: 63.48 %%
+   The distribution of the 222 th dimension looks unbalanced! diff = 26.95 %
+dim = 223	 Pos: 55.44 %% Neg: 44.56 %%
+   The distribution of the 223 th dimension looks unbalanced! diff = 10.88 %
+dim = 224	 Pos: 36.41 %% Neg: 63.59 %%
+   The distribution of the 224 th dimension looks unbalanced! diff = 27.19 %
+dim = 225	 Pos: 40.86 %% Neg: 59.14 %%
+   The distribution of the 225 th dimension looks unbalanced! diff = 18.29 %
+dim = 226	 Pos: 40.57 %% Neg: 59.43 %%
+   The distribution of the 226 th dimension looks unbalanced! diff = 18.87 %
+dim = 227	 Pos: 62.02 %% Neg: 37.98 %%
+   The distribution of the 227 th dimension looks unbalanced! diff = 24.05 %
+dim = 228	 Pos: 56.84 %% Neg: 43.16 %%
+   The distribution of the 228 th dimension looks unbalanced! diff = 13.69 %
+dim = 229	 Pos: 39.20 %% Neg: 60.80 %%
+   The distribution of the 229 th dimension looks unbalanced! diff = 21.61 %
+dim = 230	 Pos: 47.96 %% Neg: 52.04 %%
+dim = 231	 Pos: 52.73 %% Neg: 47.27 %%
+   The distribution of the 231 th dimension looks unbalanced! diff = 5.46 %
+dim = 232	 Pos: 58.83 %% Neg: 41.17 %%
+   The distribution of the 232 th dimension looks unbalanced! diff = 17.66 %
+dim = 233	 Pos: 57.84 %% Neg: 42.16 %%
+   The distribution of the 233 th dimension looks unbalanced! diff = 15.68 %
+dim = 234	 Pos: 47.17 %% Neg: 52.83 %%
+   The distribution of the 234 th dimension looks unbalanced! diff = 5.65 %
+dim = 235	 Pos: 48.91 %% Neg: 51.09 %%
+dim = 236	 Pos: 58.55 %% Neg: 41.45 %%
+   The distribution of the 236 th dimension looks unbalanced! diff = 17.10 %
+dim = 237	 Pos: 56.81 %% Neg: 43.19 %%
+   The distribution of the 237 th dimension looks unbalanced! diff = 13.63 %
+dim = 238	 Pos: 48.73 %% Neg: 51.27 %%
+dim = 239	 Pos: 39.42 %% Neg: 60.58 %%
+   The distribution of the 239 th dimension looks unbalanced! diff = 21.16 %
+dim = 240	 Pos: 68.58 %% Neg: 31.42 %%
+   The distribution of the 240 th dimension looks unbalanced! diff = 37.16 %
+dim = 241	 Pos: 42.03 %% Neg: 57.97 %%
+   The distribution of the 241 th dimension looks unbalanced! diff = 15.93 %
+dim = 242	 Pos: 43.65 %% Neg: 56.35 %%
+   The distribution of the 242 th dimension looks unbalanced! diff = 12.70 %
+dim = 243	 Pos: 49.10 %% Neg: 50.90 %%
+dim = 244	 Pos: 55.34 %% Neg: 44.66 %%
+   The distribution of the 244 th dimension looks unbalanced! diff = 10.69 %
+dim = 245	 Pos: 61.68 %% Neg: 38.32 %%
+   The distribution of the 245 th dimension looks unbalanced! diff = 23.37 %
+dim = 246	 Pos: 36.87 %% Neg: 63.13 %%
+   The distribution of the 246 th dimension looks unbalanced! diff = 26.26 %
+dim = 247	 Pos: 62.69 %% Neg: 37.31 %%
+   The distribution of the 247 th dimension looks unbalanced! diff = 25.39 %
+dim = 248	 Pos: 45.05 %% Neg: 54.95 %%
+   The distribution of the 248 th dimension looks unbalanced! diff = 9.90 %
+dim = 249	 Pos: 65.54 %% Neg: 34.46 %%
+   The distribution of the 249 th dimension looks unbalanced! diff = 31.08 %
+dim = 250	 Pos: 55.22 %% Neg: 44.78 %%
+   The distribution of the 250 th dimension looks unbalanced! diff = 10.45 %
+dim = 251	 Pos: 43.72 %% Neg: 56.28 %%
+   The distribution of the 251 th dimension looks unbalanced! diff = 12.55 %
+dim = 252	 Pos: 26.40 %% Neg: 73.60 %%
+   The distribution of the 252 th dimension looks unbalanced! diff = 47.20 %
+dim = 253	 Pos: 41.36 %% Neg: 58.64 %%
+   The distribution of the 253 th dimension looks unbalanced! diff = 17.29 %
+dim = 254	 Pos: 45.84 %% Neg: 54.16 %%
+   The distribution of the 254 th dimension looks unbalanced! diff = 8.32 %
+dim = 255	 Pos: 36.58 %% Neg: 63.42 %%
+   The distribution of the 255 th dimension looks unbalanced! diff = 26.84 %
+dim = 256	 Pos: 27.54 %% Neg: 72.46 %%
+   The distribution of the 256 th dimension looks unbalanced! diff = 44.92 %
+dim = 257	 Pos: 57.18 %% Neg: 42.82 %%
+   The distribution of the 257 th dimension looks unbalanced! diff = 14.35 %
+dim = 258	 Pos: 42.43 %% Neg: 57.57 %%
+   The distribution of the 258 th dimension looks unbalanced! diff = 15.13 %
+dim = 259	 Pos: 66.74 %% Neg: 33.26 %%
+   The distribution of the 259 th dimension looks unbalanced! diff = 33.48 %
+dim = 260	 Pos: 53.78 %% Neg: 46.22 %%
+   The distribution of the 260 th dimension looks unbalanced! diff = 7.56 %
+dim = 261	 Pos: 49.36 %% Neg: 50.64 %%
+dim = 262	 Pos: 34.46 %% Neg: 65.54 %%
+   The distribution of the 262 th dimension looks unbalanced! diff = 31.07 %
+dim = 263	 Pos: 48.67 %% Neg: 51.33 %%
+dim = 264	 Pos: 68.59 %% Neg: 31.41 %%
+   The distribution of the 264 th dimension looks unbalanced! diff = 37.19 %
+dim = 265	 Pos: 35.83 %% Neg: 64.17 %%
+   The distribution of the 265 th dimension looks unbalanced! diff = 28.33 %
+dim = 266	 Pos: 36.89 %% Neg: 63.11 %%
+   The distribution of the 266 th dimension looks unbalanced! diff = 26.22 %
+dim = 267	 Pos: 67.29 %% Neg: 32.71 %%
+   The distribution of the 267 th dimension looks unbalanced! diff = 34.58 %
+dim = 268	 Pos: 43.95 %% Neg: 56.05 %%
+   The distribution of the 268 th dimension looks unbalanced! diff = 12.11 %
+dim = 269	 Pos: 53.60 %% Neg: 46.40 %%
+   The distribution of the 269 th dimension looks unbalanced! diff = 7.19 %
+dim = 270	 Pos: 52.39 %% Neg: 47.61 %%
+dim = 271	 Pos: 58.73 %% Neg: 41.27 %%
+   The distribution of the 271 th dimension looks unbalanced! diff = 17.46 %
+dim = 272	 Pos: 48.05 %% Neg: 51.95 %%
+dim = 273	 Pos: 54.91 %% Neg: 45.09 %%
+   The distribution of the 273 th dimension looks unbalanced! diff = 9.83 %
+dim = 274	 Pos: 37.44 %% Neg: 62.56 %%
+   The distribution of the 274 th dimension looks unbalanced! diff = 25.13 %
+dim = 275	 Pos: 55.05 %% Neg: 44.95 %%
+   The distribution of the 275 th dimension looks unbalanced! diff = 10.11 %
+dim = 276	 Pos: 40.09 %% Neg: 59.91 %%
+   The distribution of the 276 th dimension looks unbalanced! diff = 19.82 %
+dim = 277	 Pos: 54.60 %% Neg: 45.40 %%
+   The distribution of the 277 th dimension looks unbalanced! diff = 9.20 %
+dim = 278	 Pos: 37.06 %% Neg: 62.94 %%
+   The distribution of the 278 th dimension looks unbalanced! diff = 25.88 %
+dim = 279	 Pos: 56.15 %% Neg: 43.85 %%
+   The distribution of the 279 th dimension looks unbalanced! diff = 12.30 %
+dim = 280	 Pos: 53.94 %% Neg: 46.06 %%
+   The distribution of the 280 th dimension looks unbalanced! diff = 7.88 %
+dim = 281	 Pos: 41.44 %% Neg: 58.56 %%
+   The distribution of the 281 th dimension looks unbalanced! diff = 17.12 %
+dim = 282	 Pos: 56.87 %% Neg: 43.13 %%
+   The distribution of the 282 th dimension looks unbalanced! diff = 13.75 %
+dim = 283	 Pos: 47.97 %% Neg: 52.03 %%
+dim = 284	 Pos: 45.54 %% Neg: 54.46 %%
+   The distribution of the 284 th dimension looks unbalanced! diff = 8.92 %
+dim = 285	 Pos: 59.04 %% Neg: 40.96 %%
+   The distribution of the 285 th dimension looks unbalanced! diff = 18.07 %
+dim = 286	 Pos: 37.00 %% Neg: 63.00 %%
+   The distribution of the 286 th dimension looks unbalanced! diff = 26.01 %
+dim = 287	 Pos: 52.95 %% Neg: 47.05 %%
+   The distribution of the 287 th dimension looks unbalanced! diff = 5.90 %
+dim = 288	 Pos: 63.18 %% Neg: 36.82 %%
+   The distribution of the 288 th dimension looks unbalanced! diff = 26.36 %
+dim = 289	 Pos: 50.09 %% Neg: 49.91 %%
+dim = 290	 Pos: 42.45 %% Neg: 57.55 %%
+   The distribution of the 290 th dimension looks unbalanced! diff = 15.11 %
+dim = 291	 Pos: 49.45 %% Neg: 50.55 %%
+dim = 292	 Pos: 47.75 %% Neg: 52.25 %%
+dim = 293	 Pos: 55.22 %% Neg: 44.78 %%
+   The distribution of the 293 th dimension looks unbalanced! diff = 10.43 %
+dim = 294	 Pos: 59.86 %% Neg: 40.14 %%
+   The distribution of the 294 th dimension looks unbalanced! diff = 19.73 %
+dim = 295	 Pos: 38.31 %% Neg: 61.69 %%
+   The distribution of the 295 th dimension looks unbalanced! diff = 23.39 %
+dim = 296	 Pos: 31.38 %% Neg: 68.62 %%
+   The distribution of the 296 th dimension looks unbalanced! diff = 37.24 %
+dim = 297	 Pos: 44.27 %% Neg: 55.73 %%
+   The distribution of the 297 th dimension looks unbalanced! diff = 11.46 %
+dim = 298	 Pos: 38.32 %% Neg: 61.68 %%
+   The distribution of the 298 th dimension looks unbalanced! diff = 23.36 %
+dim = 299	 Pos: 65.49 %% Neg: 34.51 %%
+   The distribution of the 299 th dimension looks unbalanced! diff = 30.98 %
+dim = 300	 Pos: 46.57 %% Neg: 53.43 %%
+   The distribution of the 300 th dimension looks unbalanced! diff = 6.86 %
+dim = 301	 Pos: 46.59 %% Neg: 53.41 %%
+   The distribution of the 301 th dimension looks unbalanced! diff = 6.81 %
+dim = 302	 Pos: 37.85 %% Neg: 62.15 %%
+   The distribution of the 302 th dimension looks unbalanced! diff = 24.31 %
+dim = 303	 Pos: 50.53 %% Neg: 49.47 %%
+dim = 304	 Pos: 50.59 %% Neg: 49.41 %%
+dim = 305	 Pos: 32.05 %% Neg: 67.95 %%
+   The distribution of the 305 th dimension looks unbalanced! diff = 35.90 %
+dim = 306	 Pos: 47.97 %% Neg: 52.03 %%
+dim = 307	 Pos: 58.58 %% Neg: 41.42 %%
+   The distribution of the 307 th dimension looks unbalanced! diff = 17.16 %
+dim = 308	 Pos: 63.38 %% Neg: 36.62 %%
+   The distribution of the 308 th dimension looks unbalanced! diff = 26.76 %
+dim = 309	 Pos: 56.67 %% Neg: 43.33 %%
+   The distribution of the 309 th dimension looks unbalanced! diff = 13.35 %
+dim = 310	 Pos: 56.77 %% Neg: 43.23 %%
+   The distribution of the 310 th dimension looks unbalanced! diff = 13.53 %
+dim = 311	 Pos: 35.83 %% Neg: 64.17 %%
+   The distribution of the 311 th dimension looks unbalanced! diff = 28.34 %
+dim = 312	 Pos: 51.06 %% Neg: 48.94 %%
+dim = 313	 Pos: 64.59 %% Neg: 35.41 %%
+   The distribution of the 313 th dimension looks unbalanced! diff = 29.18 %
+dim = 314	 Pos: 41.68 %% Neg: 58.32 %%
+   The distribution of the 314 th dimension looks unbalanced! diff = 16.65 %
+dim = 315	 Pos: 38.64 %% Neg: 61.36 %%
+   The distribution of the 315 th dimension looks unbalanced! diff = 22.71 %
+dim = 316	 Pos: 50.80 %% Neg: 49.20 %%
+dim = 317	 Pos: 51.32 %% Neg: 48.68 %%
+dim = 318	 Pos: 41.63 %% Neg: 58.37 %%
+   The distribution of the 318 th dimension looks unbalanced! diff = 16.73 %
+dim = 319	 Pos: 0.00 %% Neg: 100.00 %%
+   The distribution of the 319 th dimension looks unbalanced! diff = 100.00 %
+dim = 320	 Pos: 48.84 %% Neg: 51.16 %%
+dim = 321	 Pos: 56.16 %% Neg: 43.84 %%
+   The distribution of the 321 th dimension looks unbalanced! diff = 12.32 %
+dim = 322	 Pos: 43.18 %% Neg: 56.82 %%
+   The distribution of the 322 th dimension looks unbalanced! diff = 13.64 %
+dim = 323	 Pos: 48.61 %% Neg: 51.39 %%
+dim = 324	 Pos: 61.09 %% Neg: 38.91 %%
+   The distribution of the 324 th dimension looks unbalanced! diff = 22.18 %
+dim = 325	 Pos: 52.26 %% Neg: 47.74 %%
+dim = 326	 Pos: 53.61 %% Neg: 46.39 %%
+   The distribution of the 326 th dimension looks unbalanced! diff = 7.22 %
+dim = 327	 Pos: 54.75 %% Neg: 45.25 %%
+   The distribution of the 327 th dimension looks unbalanced! diff = 9.50 %
+dim = 328	 Pos: 47.11 %% Neg: 52.89 %%
+   The distribution of the 328 th dimension looks unbalanced! diff = 5.77 %
+dim = 329	 Pos: 69.55 %% Neg: 30.45 %%
+   The distribution of the 329 th dimension looks unbalanced! diff = 39.10 %
+dim = 330	 Pos: 58.65 %% Neg: 41.35 %%
+   The distribution of the 330 th dimension looks unbalanced! diff = 17.29 %
+dim = 331	 Pos: 55.94 %% Neg: 44.06 %%
+   The distribution of the 331 th dimension looks unbalanced! diff = 11.87 %
+dim = 332	 Pos: 47.40 %% Neg: 52.60 %%
+   The distribution of the 332 th dimension looks unbalanced! diff = 5.20 %
+dim = 333	 Pos: 57.64 %% Neg: 42.36 %%
+   The distribution of the 333 th dimension looks unbalanced! diff = 15.28 %
+dim = 334	 Pos: 59.66 %% Neg: 40.34 %%
+   The distribution of the 334 th dimension looks unbalanced! diff = 19.32 %
+dim = 335	 Pos: 55.40 %% Neg: 44.60 %%
+   The distribution of the 335 th dimension looks unbalanced! diff = 10.79 %
+dim = 336	 Pos: 49.43 %% Neg: 50.57 %%
+dim = 337	 Pos: 42.22 %% Neg: 57.78 %%
+   The distribution of the 337 th dimension looks unbalanced! diff = 15.57 %
+dim = 338	 Pos: 24.98 %% Neg: 75.02 %%
+   The distribution of the 338 th dimension looks unbalanced! diff = 50.05 %
+dim = 339	 Pos: 51.52 %% Neg: 48.48 %%
+dim = 340	 Pos: 41.19 %% Neg: 58.81 %%
+   The distribution of the 340 th dimension looks unbalanced! diff = 17.61 %
+dim = 341	 Pos: 59.37 %% Neg: 40.63 %%
+   The distribution of the 341 th dimension looks unbalanced! diff = 18.75 %
+dim = 342	 Pos: 54.83 %% Neg: 45.17 %%
+   The distribution of the 342 th dimension looks unbalanced! diff = 9.67 %
+dim = 343	 Pos: 52.64 %% Neg: 47.36 %%
+   The distribution of the 343 th dimension looks unbalanced! diff = 5.27 %
+dim = 344	 Pos: 46.26 %% Neg: 53.74 %%
+   The distribution of the 344 th dimension looks unbalanced! diff = 7.49 %
+dim = 345	 Pos: 59.23 %% Neg: 40.77 %%
+   The distribution of the 345 th dimension looks unbalanced! diff = 18.47 %
+dim = 346	 Pos: 39.59 %% Neg: 60.41 %%
+   The distribution of the 346 th dimension looks unbalanced! diff = 20.82 %
+dim = 347	 Pos: 64.00 %% Neg: 36.00 %%
+   The distribution of the 347 th dimension looks unbalanced! diff = 28.00 %
+dim = 348	 Pos: 51.01 %% Neg: 48.99 %%
+dim = 349	 Pos: 56.80 %% Neg: 43.20 %%
+   The distribution of the 349 th dimension looks unbalanced! diff = 13.61 %
+dim = 350	 Pos: 52.38 %% Neg: 47.62 %%
+dim = 351	 Pos: 60.50 %% Neg: 39.50 %%
+   The distribution of the 351 th dimension looks unbalanced! diff = 21.01 %
+dim = 352	 Pos: 37.07 %% Neg: 62.93 %%
+   The distribution of the 352 th dimension looks unbalanced! diff = 25.87 %
+dim = 353	 Pos: 44.98 %% Neg: 55.02 %%
+   The distribution of the 353 th dimension looks unbalanced! diff = 10.05 %
+dim = 354	 Pos: 51.45 %% Neg: 48.55 %%
+dim = 355	 Pos: 50.12 %% Neg: 49.88 %%
+dim = 356	 Pos: 46.38 %% Neg: 53.62 %%
+   The distribution of the 356 th dimension looks unbalanced! diff = 7.23 %
+dim = 357	 Pos: 51.12 %% Neg: 48.88 %%
+dim = 358	 Pos: 62.43 %% Neg: 37.57 %%
+   The distribution of the 358 th dimension looks unbalanced! diff = 24.85 %
+dim = 359	 Pos: 36.73 %% Neg: 63.27 %%
+   The distribution of the 359 th dimension looks unbalanced! diff = 26.55 %
+dim = 360	 Pos: 35.00 %% Neg: 65.00 %%
+   The distribution of the 360 th dimension looks unbalanced! diff = 29.99 %
+dim = 361	 Pos: 56.91 %% Neg: 43.09 %%
+   The distribution of the 361 th dimension looks unbalanced! diff = 13.82 %
+dim = 362	 Pos: 53.01 %% Neg: 46.99 %%
+   The distribution of the 362 th dimension looks unbalanced! diff = 6.02 %
+dim = 363	 Pos: 76.01 %% Neg: 23.99 %%
+   The distribution of the 363 th dimension looks unbalanced! diff = 52.03 %
+dim = 364	 Pos: 53.62 %% Neg: 46.38 %%
+   The distribution of the 364 th dimension looks unbalanced! diff = 7.24 %
+dim = 365	 Pos: 49.01 %% Neg: 50.99 %%
+dim = 366	 Pos: 41.51 %% Neg: 58.49 %%
+   The distribution of the 366 th dimension looks unbalanced! diff = 16.98 %
+dim = 367	 Pos: 51.96 %% Neg: 48.04 %%
+dim = 368	 Pos: 46.71 %% Neg: 53.29 %%
+   The distribution of the 368 th dimension looks unbalanced! diff = 6.58 %
+dim = 369	 Pos: 38.74 %% Neg: 61.26 %%
+   The distribution of the 369 th dimension looks unbalanced! diff = 22.52 %
+dim = 370	 Pos: 49.97 %% Neg: 50.03 %%
+dim = 371	 Pos: 52.28 %% Neg: 47.72 %%
+dim = 372	 Pos: 55.22 %% Neg: 44.78 %%
+   The distribution of the 372 th dimension looks unbalanced! diff = 10.45 %
+dim = 373	 Pos: 59.48 %% Neg: 40.52 %%
+   The distribution of the 373 th dimension looks unbalanced! diff = 18.96 %
+dim = 374	 Pos: 69.66 %% Neg: 30.34 %%
+   The distribution of the 374 th dimension looks unbalanced! diff = 39.31 %
+dim = 375	 Pos: 48.85 %% Neg: 51.15 %%
+dim = 376	 Pos: 46.50 %% Neg: 53.50 %%
+   The distribution of the 376 th dimension looks unbalanced! diff = 7.00 %
+dim = 377	 Pos: 43.52 %% Neg: 56.48 %%
+   The distribution of the 377 th dimension looks unbalanced! diff = 12.97 %
+dim = 378	 Pos: 35.68 %% Neg: 64.32 %%
+   The distribution of the 378 th dimension looks unbalanced! diff = 28.65 %
+dim = 379	 Pos: 51.71 %% Neg: 48.29 %%
+dim = 380	 Pos: 62.28 %% Neg: 37.72 %%
+   The distribution of the 380 th dimension looks unbalanced! diff = 24.56 %
+dim = 381	 Pos: 39.04 %% Neg: 60.96 %%
+   The distribution of the 381 th dimension looks unbalanced! diff = 21.91 %
+dim = 382	 Pos: 54.98 %% Neg: 45.02 %%
+   The distribution of the 382 th dimension looks unbalanced! diff = 9.96 %
+dim = 383	 Pos: 56.97 %% Neg: 43.03 %%
+   The distribution of the 383 th dimension looks unbalanced! diff = 13.93 %
+
+ ===== Dimension sorted by unbalance =====
+
+dim = 319	 Pos = 0.00 %%	Neg = 100.00 %%	Diff = 100.00 %%
+dim = 127	 Pos = 13.04 %%	Neg = 86.96 %%	Diff = 73.93 %%
+dim = 99	 Pos = 81.77 %%	Neg = 18.23 %%	Diff = 63.53 %%
+dim = 363	 Pos = 76.01 %%	Neg = 23.99 %%	Diff = 52.03 %%
+dim = 338	 Pos = 24.98 %%	Neg = 75.02 %%	Diff = 50.05 %%
+dim = 252	 Pos = 26.40 %%	Neg = 73.60 %%	Diff = 47.20 %%
+dim = 256	 Pos = 27.54 %%	Neg = 72.46 %%	Diff = 44.92 %%
+dim = 41	 Pos = 29.48 %%	Neg = 70.52 %%	Diff = 41.05 %%
+dim = 144	 Pos = 30.32 %%	Neg = 69.68 %%	Diff = 39.37 %%
+dim = 374	 Pos = 69.66 %%	Neg = 30.34 %%	Diff = 39.31 %%
+dim = 157	 Pos = 69.59 %%	Neg = 30.41 %%	Diff = 39.18 %%
+dim = 329	 Pos = 69.55 %%	Neg = 30.45 %%	Diff = 39.10 %%
+dim = 63	 Pos = 69.16 %%	Neg = 30.84 %%	Diff = 38.32 %%
+dim = 62	 Pos = 31.31 %%	Neg = 68.69 %%	Diff = 37.38 %%
+dim = 296	 Pos = 31.38 %%	Neg = 68.62 %%	Diff = 37.24 %%
+dim = 264	 Pos = 68.59 %%	Neg = 31.41 %%	Diff = 37.19 %%
+dim = 240	 Pos = 68.58 %%	Neg = 31.42 %%	Diff = 37.16 %%
+dim = 165	 Pos = 31.94 %%	Neg = 68.06 %%	Diff = 36.11 %%
+dim = 305	 Pos = 32.05 %%	Neg = 67.95 %%	Diff = 35.90 %%
+dim = 105	 Pos = 32.18 %%	Neg = 67.82 %%	Diff = 35.65 %%
+dim = 78	 Pos = 67.57 %%	Neg = 32.43 %%	Diff = 35.15 %%
+dim = 202	 Pos = 32.66 %%	Neg = 67.34 %%	Diff = 34.69 %%
+dim = 267	 Pos = 67.29 %%	Neg = 32.71 %%	Diff = 34.58 %%
+dim = 259	 Pos = 66.74 %%	Neg = 33.26 %%	Diff = 33.48 %%
+dim = 192	 Pos = 33.68 %%	Neg = 66.32 %%	Diff = 32.64 %%
+dim = 134	 Pos = 33.98 %%	Neg = 66.02 %%	Diff = 32.04 %%
+dim = 186	 Pos = 66.01 %%	Neg = 33.99 %%	Diff = 32.03 %%
+dim = 81	 Pos = 34.04 %%	Neg = 65.96 %%	Diff = 31.92 %%
+dim = 87	 Pos = 34.22 %%	Neg = 65.78 %%	Diff = 31.55 %%
+dim = 17	 Pos = 34.24 %%	Neg = 65.76 %%	Diff = 31.52 %%
+dim = 101	 Pos = 65.76 %%	Neg = 34.24 %%	Diff = 31.52 %%
+dim = 249	 Pos = 65.54 %%	Neg = 34.46 %%	Diff = 31.08 %%
+dim = 262	 Pos = 34.46 %%	Neg = 65.54 %%	Diff = 31.07 %%
+dim = 299	 Pos = 65.49 %%	Neg = 34.51 %%	Diff = 30.98 %%
+dim = 163	 Pos = 65.48 %%	Neg = 34.52 %%	Diff = 30.97 %%
+dim = 145	 Pos = 65.40 %%	Neg = 34.60 %%	Diff = 30.81 %%
+dim = 53	 Pos = 34.77 %%	Neg = 65.23 %%	Diff = 30.47 %%
+dim = 360	 Pos = 35.00 %%	Neg = 65.00 %%	Diff = 29.99 %%
+dim = 215	 Pos = 35.37 %%	Neg = 64.63 %%	Diff = 29.27 %%
+dim = 313	 Pos = 64.59 %%	Neg = 35.41 %%	Diff = 29.18 %%
+dim = 378	 Pos = 35.68 %%	Neg = 64.32 %%	Diff = 28.65 %%
+dim = 121	 Pos = 64.28 %%	Neg = 35.72 %%	Diff = 28.57 %%
+dim = 311	 Pos = 35.83 %%	Neg = 64.17 %%	Diff = 28.34 %%
+dim = 265	 Pos = 35.83 %%	Neg = 64.17 %%	Diff = 28.33 %%
+dim = 96	 Pos = 35.96 %%	Neg = 64.04 %%	Diff = 28.08 %%
+dim = 347	 Pos = 64.00 %%	Neg = 36.00 %%	Diff = 28.00 %%
+dim = 224	 Pos = 36.41 %%	Neg = 63.59 %%	Diff = 27.19 %%
+dim = 76	 Pos = 63.55 %%	Neg = 36.45 %%	Diff = 27.11 %%
+dim = 222	 Pos = 36.52 %%	Neg = 63.48 %%	Diff = 26.95 %%
+dim = 255	 Pos = 36.58 %%	Neg = 63.42 %%	Diff = 26.84 %%
+dim = 206	 Pos = 63.42 %%	Neg = 36.58 %%	Diff = 26.83 %%
+dim = 308	 Pos = 63.38 %%	Neg = 36.62 %%	Diff = 26.76 %%
+dim = 359	 Pos = 36.73 %%	Neg = 63.27 %%	Diff = 26.55 %%
+dim = 288	 Pos = 63.18 %%	Neg = 36.82 %%	Diff = 26.36 %%
+dim = 246	 Pos = 36.87 %%	Neg = 63.13 %%	Diff = 26.26 %%
+dim = 266	 Pos = 36.89 %%	Neg = 63.11 %%	Diff = 26.22 %%
+dim = 98	 Pos = 36.91 %%	Neg = 63.09 %%	Diff = 26.18 %%
+dim = 286	 Pos = 37.00 %%	Neg = 63.00 %%	Diff = 26.01 %%
+dim = 278	 Pos = 37.06 %%	Neg = 62.94 %%	Diff = 25.88 %%
+dim = 352	 Pos = 37.07 %%	Neg = 62.93 %%	Diff = 25.87 %%
+dim = 11	 Pos = 62.85 %%	Neg = 37.15 %%	Diff = 25.70 %%
+dim = 159	 Pos = 62.70 %%	Neg = 37.30 %%	Diff = 25.41 %%
+dim = 247	 Pos = 62.69 %%	Neg = 37.31 %%	Diff = 25.39 %%
+dim = 79	 Pos = 37.34 %%	Neg = 62.66 %%	Diff = 25.31 %%
+dim = 274	 Pos = 37.44 %%	Neg = 62.56 %%	Diff = 25.13 %%
+dim = 156	 Pos = 62.55 %%	Neg = 37.45 %%	Diff = 25.10 %%
+dim = 358	 Pos = 62.43 %%	Neg = 37.57 %%	Diff = 24.85 %%
+dim = 380	 Pos = 62.28 %%	Neg = 37.72 %%	Diff = 24.56 %%
+dim = 302	 Pos = 37.85 %%	Neg = 62.15 %%	Diff = 24.31 %%
+dim = 209	 Pos = 37.92 %%	Neg = 62.08 %%	Diff = 24.15 %%
+dim = 227	 Pos = 62.02 %%	Neg = 37.98 %%	Diff = 24.05 %%
+dim = 120	 Pos = 62.01 %%	Neg = 37.99 %%	Diff = 24.02 %%
+dim = 295	 Pos = 38.31 %%	Neg = 61.69 %%	Diff = 23.39 %%
+dim = 245	 Pos = 61.68 %%	Neg = 38.32 %%	Diff = 23.37 %%
+dim = 298	 Pos = 38.32 %%	Neg = 61.68 %%	Diff = 23.36 %%
+dim = 212	 Pos = 61.51 %%	Neg = 38.49 %%	Diff = 23.01 %%
+dim = 122	 Pos = 38.55 %%	Neg = 61.45 %%	Diff = 22.90 %%
+dim = 179	 Pos = 61.38 %%	Neg = 38.62 %%	Diff = 22.76 %%
+dim = 315	 Pos = 38.64 %%	Neg = 61.36 %%	Diff = 22.71 %%
+dim = 214	 Pos = 61.33 %%	Neg = 38.67 %%	Diff = 22.67 %%
+dim = 47	 Pos = 38.67 %%	Neg = 61.33 %%	Diff = 22.66 %%
+dim = 369	 Pos = 38.74 %%	Neg = 61.26 %%	Diff = 22.52 %%
+dim = 210	 Pos = 61.20 %%	Neg = 38.80 %%	Diff = 22.40 %%
+dim = 124	 Pos = 38.87 %%	Neg = 61.13 %%	Diff = 22.25 %%
+dim = 91	 Pos = 38.90 %%	Neg = 61.10 %%	Diff = 22.20 %%
+dim = 324	 Pos = 61.09 %%	Neg = 38.91 %%	Diff = 22.18 %%
+dim = 68	 Pos = 38.94 %%	Neg = 61.06 %%	Diff = 22.11 %%
+dim = 31	 Pos = 61.00 %%	Neg = 39.00 %%	Diff = 22.01 %%
+dim = 158	 Pos = 39.02 %%	Neg = 60.98 %%	Diff = 21.96 %%
+dim = 381	 Pos = 39.04 %%	Neg = 60.96 %%	Diff = 21.91 %%
+dim = 22	 Pos = 60.95 %%	Neg = 39.05 %%	Diff = 21.90 %%
+dim = 229	 Pos = 39.20 %%	Neg = 60.80 %%	Diff = 21.61 %%
+dim = 130	 Pos = 60.79 %%	Neg = 39.21 %%	Diff = 21.58 %%
+dim = 44	 Pos = 39.25 %%	Neg = 60.75 %%	Diff = 21.51 %%
+dim = 23	 Pos = 60.72 %%	Neg = 39.28 %%	Diff = 21.44 %%
+dim = 70	 Pos = 60.71 %%	Neg = 39.29 %%	Diff = 21.42 %%
+dim = 239	 Pos = 39.42 %%	Neg = 60.58 %%	Diff = 21.16 %%
+dim = 351	 Pos = 60.50 %%	Neg = 39.50 %%	Diff = 21.01 %%
+dim = 190	 Pos = 39.53 %%	Neg = 60.47 %%	Diff = 20.94 %%
+dim = 125	 Pos = 39.58 %%	Neg = 60.42 %%	Diff = 20.83 %%
+dim = 346	 Pos = 39.59 %%	Neg = 60.41 %%	Diff = 20.82 %%
+dim = 36	 Pos = 60.29 %%	Neg = 39.71 %%	Diff = 20.57 %%
+dim = 94	 Pos = 39.76 %%	Neg = 60.24 %%	Diff = 20.49 %%
+dim = 128	 Pos = 60.10 %%	Neg = 39.90 %%	Diff = 20.20 %%
+dim = 131	 Pos = 60.09 %%	Neg = 39.91 %%	Diff = 20.18 %%
+dim = 64	 Pos = 60.06 %%	Neg = 39.94 %%	Diff = 20.13 %%
+dim = 58	 Pos = 60.00 %%	Neg = 40.00 %%	Diff = 20.00 %%
+dim = 216	 Pos = 40.08 %%	Neg = 59.92 %%	Diff = 19.84 %%
+dim = 276	 Pos = 40.09 %%	Neg = 59.91 %%	Diff = 19.82 %%
+dim = 294	 Pos = 59.86 %%	Neg = 40.14 %%	Diff = 19.73 %%
+dim = 45	 Pos = 40.22 %%	Neg = 59.78 %%	Diff = 19.56 %%
+dim = 4	 Pos = 59.77 %%	Neg = 40.23 %%	Diff = 19.54 %%
+dim = 33	 Pos = 59.72 %%	Neg = 40.28 %%	Diff = 19.45 %%
+dim = 18	 Pos = 40.32 %%	Neg = 59.68 %%	Diff = 19.36 %%
+dim = 334	 Pos = 59.66 %%	Neg = 40.34 %%	Diff = 19.32 %%
+dim = 132	 Pos = 59.59 %%	Neg = 40.41 %%	Diff = 19.17 %%
+dim = 218	 Pos = 40.42 %%	Neg = 59.58 %%	Diff = 19.17 %%
+dim = 5	 Pos = 59.57 %%	Neg = 40.43 %%	Diff = 19.14 %%
+dim = 373	 Pos = 59.48 %%	Neg = 40.52 %%	Diff = 18.96 %%
+dim = 54	 Pos = 59.45 %%	Neg = 40.55 %%	Diff = 18.90 %%
+dim = 226	 Pos = 40.57 %%	Neg = 59.43 %%	Diff = 18.87 %%
+dim = 174	 Pos = 59.40 %%	Neg = 40.60 %%	Diff = 18.80 %%
+dim = 181	 Pos = 40.61 %%	Neg = 59.39 %%	Diff = 18.79 %%
+dim = 341	 Pos = 59.37 %%	Neg = 40.63 %%	Diff = 18.75 %%
+dim = 35	 Pos = 59.25 %%	Neg = 40.75 %%	Diff = 18.49 %%
+dim = 345	 Pos = 59.23 %%	Neg = 40.77 %%	Diff = 18.47 %%
+dim = 225	 Pos = 40.86 %%	Neg = 59.14 %%	Diff = 18.29 %%
+dim = 66	 Pos = 40.94 %%	Neg = 59.06 %%	Diff = 18.13 %%
+dim = 285	 Pos = 59.04 %%	Neg = 40.96 %%	Diff = 18.07 %%
+dim = 26	 Pos = 40.99 %%	Neg = 59.01 %%	Diff = 18.02 %%
+dim = 169	 Pos = 58.88 %%	Neg = 41.12 %%	Diff = 17.75 %%
+dim = 232	 Pos = 58.83 %%	Neg = 41.17 %%	Diff = 17.66 %%
+dim = 340	 Pos = 41.19 %%	Neg = 58.81 %%	Diff = 17.61 %%
+dim = 271	 Pos = 58.73 %%	Neg = 41.27 %%	Diff = 17.46 %%
+dim = 154	 Pos = 58.70 %%	Neg = 41.30 %%	Diff = 17.39 %%
+dim = 330	 Pos = 58.65 %%	Neg = 41.35 %%	Diff = 17.29 %%
+dim = 253	 Pos = 41.36 %%	Neg = 58.64 %%	Diff = 17.29 %%
+dim = 307	 Pos = 58.58 %%	Neg = 41.42 %%	Diff = 17.16 %%
+dim = 281	 Pos = 41.44 %%	Neg = 58.56 %%	Diff = 17.12 %%
+dim = 236	 Pos = 58.55 %%	Neg = 41.45 %%	Diff = 17.10 %%
+dim = 110	 Pos = 41.49 %%	Neg = 58.51 %%	Diff = 17.02 %%
+dim = 366	 Pos = 41.51 %%	Neg = 58.49 %%	Diff = 16.98 %%
+dim = 20	 Pos = 41.55 %%	Neg = 58.45 %%	Diff = 16.90 %%
+dim = 318	 Pos = 41.63 %%	Neg = 58.37 %%	Diff = 16.73 %%
+dim = 314	 Pos = 41.68 %%	Neg = 58.32 %%	Diff = 16.65 %%
+dim = 1	 Pos = 58.25 %%	Neg = 41.75 %%	Diff = 16.50 %%
+dim = 126	 Pos = 41.83 %%	Neg = 58.17 %%	Diff = 16.34 %%
+dim = 241	 Pos = 42.03 %%	Neg = 57.97 %%	Diff = 15.93 %%
+dim = 148	 Pos = 57.85 %%	Neg = 42.15 %%	Diff = 15.70 %%
+dim = 233	 Pos = 57.84 %%	Neg = 42.16 %%	Diff = 15.68 %%
+dim = 337	 Pos = 42.22 %%	Neg = 57.78 %%	Diff = 15.57 %%
+dim = 90	 Pos = 42.27 %%	Neg = 57.73 %%	Diff = 15.47 %%
+dim = 38	 Pos = 57.73 %%	Neg = 42.27 %%	Diff = 15.47 %%
+dim = 333	 Pos = 57.64 %%	Neg = 42.36 %%	Diff = 15.28 %%
+dim = 258	 Pos = 42.43 %%	Neg = 57.57 %%	Diff = 15.13 %%
+dim = 290	 Pos = 42.45 %%	Neg = 57.55 %%	Diff = 15.11 %%
+dim = 123	 Pos = 57.49 %%	Neg = 42.51 %%	Diff = 14.98 %%
+dim = 85	 Pos = 42.55 %%	Neg = 57.45 %%	Diff = 14.90 %%
+dim = 141	 Pos = 42.56 %%	Neg = 57.44 %%	Diff = 14.88 %%
+dim = 104	 Pos = 42.56 %%	Neg = 57.44 %%	Diff = 14.88 %%
+dim = 37	 Pos = 57.42 %%	Neg = 42.58 %%	Diff = 14.83 %%
+dim = 77	 Pos = 57.42 %%	Neg = 42.58 %%	Diff = 14.83 %%
+dim = 168	 Pos = 42.67 %%	Neg = 57.33 %%	Diff = 14.66 %%
+dim = 103	 Pos = 42.71 %%	Neg = 57.29 %%	Diff = 14.57 %%
+dim = 257	 Pos = 57.18 %%	Neg = 42.82 %%	Diff = 14.35 %%
+dim = 217	 Pos = 57.11 %%	Neg = 42.89 %%	Diff = 14.22 %%
+dim = 173	 Pos = 57.00 %%	Neg = 43.00 %%	Diff = 14.01 %%
+dim = 383	 Pos = 56.97 %%	Neg = 43.03 %%	Diff = 13.93 %%
+dim = 361	 Pos = 56.91 %%	Neg = 43.09 %%	Diff = 13.82 %%
+dim = 8	 Pos = 43.10 %%	Neg = 56.90 %%	Diff = 13.80 %%
+dim = 282	 Pos = 56.87 %%	Neg = 43.13 %%	Diff = 13.75 %%
+dim = 228	 Pos = 56.84 %%	Neg = 43.16 %%	Diff = 13.69 %%
+dim = 322	 Pos = 43.18 %%	Neg = 56.82 %%	Diff = 13.64 %%
+dim = 237	 Pos = 56.81 %%	Neg = 43.19 %%	Diff = 13.63 %%
+dim = 349	 Pos = 56.80 %%	Neg = 43.20 %%	Diff = 13.61 %%
+dim = 193	 Pos = 56.79 %%	Neg = 43.21 %%	Diff = 13.59 %%
+dim = 310	 Pos = 56.77 %%	Neg = 43.23 %%	Diff = 13.53 %%
+dim = 170	 Pos = 43.24 %%	Neg = 56.76 %%	Diff = 13.53 %%
+dim = 56	 Pos = 43.27 %%	Neg = 56.73 %%	Diff = 13.47 %%
+dim = 201	 Pos = 43.32 %%	Neg = 56.68 %%	Diff = 13.36 %%
+dim = 309	 Pos = 56.67 %%	Neg = 43.33 %%	Diff = 13.35 %%
+dim = 51	 Pos = 43.33 %%	Neg = 56.67 %%	Diff = 13.34 %%
+dim = 82	 Pos = 43.49 %%	Neg = 56.51 %%	Diff = 13.02 %%
+dim = 117	 Pos = 56.51 %%	Neg = 43.49 %%	Diff = 13.02 %%
+dim = 61	 Pos = 43.49 %%	Neg = 56.51 %%	Diff = 13.01 %%
+dim = 377	 Pos = 43.52 %%	Neg = 56.48 %%	Diff = 12.97 %%
+dim = 220	 Pos = 56.48 %%	Neg = 43.52 %%	Diff = 12.97 %%
+dim = 150	 Pos = 43.53 %%	Neg = 56.47 %%	Diff = 12.94 %%
+dim = 189	 Pos = 56.44 %%	Neg = 43.56 %%	Diff = 12.88 %%
+dim = 162	 Pos = 56.43 %%	Neg = 43.57 %%	Diff = 12.85 %%
+dim = 115	 Pos = 56.41 %%	Neg = 43.59 %%	Diff = 12.82 %%
+dim = 177	 Pos = 56.39 %%	Neg = 43.61 %%	Diff = 12.77 %%
+dim = 242	 Pos = 43.65 %%	Neg = 56.35 %%	Diff = 12.70 %%
+dim = 200	 Pos = 43.67 %%	Neg = 56.33 %%	Diff = 12.65 %%
+dim = 89	 Pos = 56.32 %%	Neg = 43.68 %%	Diff = 12.63 %%
+dim = 251	 Pos = 43.72 %%	Neg = 56.28 %%	Diff = 12.55 %%
+dim = 203	 Pos = 43.74 %%	Neg = 56.26 %%	Diff = 12.52 %%
+dim = 164	 Pos = 43.81 %%	Neg = 56.19 %%	Diff = 12.38 %%
+dim = 321	 Pos = 56.16 %%	Neg = 43.84 %%	Diff = 12.32 %%
+dim = 55	 Pos = 56.16 %%	Neg = 43.84 %%	Diff = 12.32 %%
+dim = 279	 Pos = 56.15 %%	Neg = 43.85 %%	Diff = 12.30 %%
+dim = 135	 Pos = 43.87 %%	Neg = 56.13 %%	Diff = 12.25 %%
+dim = 113	 Pos = 56.08 %%	Neg = 43.92 %%	Diff = 12.16 %%
+dim = 268	 Pos = 43.95 %%	Neg = 56.05 %%	Diff = 12.11 %%
+dim = 29	 Pos = 43.98 %%	Neg = 56.02 %%	Diff = 12.04 %%
+dim = 331	 Pos = 55.94 %%	Neg = 44.06 %%	Diff = 11.87 %%
+dim = 7	 Pos = 44.07 %%	Neg = 55.93 %%	Diff = 11.86 %%
+dim = 40	 Pos = 55.93 %%	Neg = 44.07 %%	Diff = 11.85 %%
+dim = 48	 Pos = 55.92 %%	Neg = 44.08 %%	Diff = 11.84 %%
+dim = 43	 Pos = 55.85 %%	Neg = 44.15 %%	Diff = 11.71 %%
+dim = 297	 Pos = 44.27 %%	Neg = 55.73 %%	Diff = 11.46 %%
+dim = 50	 Pos = 44.27 %%	Neg = 55.73 %%	Diff = 11.45 %%
+dim = 198	 Pos = 44.41 %%	Neg = 55.59 %%	Diff = 11.17 %%
+dim = 188	 Pos = 55.54 %%	Neg = 44.46 %%	Diff = 11.08 %%
+dim = 108	 Pos = 44.49 %%	Neg = 55.51 %%	Diff = 11.02 %%
+dim = 191	 Pos = 55.44 %%	Neg = 44.56 %%	Diff = 10.88 %%
+dim = 223	 Pos = 55.44 %%	Neg = 44.56 %%	Diff = 10.88 %%
+dim = 335	 Pos = 55.40 %%	Neg = 44.60 %%	Diff = 10.79 %%
+dim = 244	 Pos = 55.34 %%	Neg = 44.66 %%	Diff = 10.69 %%
+dim = 92	 Pos = 55.23 %%	Neg = 44.77 %%	Diff = 10.45 %%
+dim = 250	 Pos = 55.22 %%	Neg = 44.78 %%	Diff = 10.45 %%
+dim = 372	 Pos = 55.22 %%	Neg = 44.78 %%	Diff = 10.45 %%
+dim = 293	 Pos = 55.22 %%	Neg = 44.78 %%	Diff = 10.43 %%
+dim = 197	 Pos = 55.13 %%	Neg = 44.87 %%	Diff = 10.26 %%
+dim = 116	 Pos = 44.91 %%	Neg = 55.09 %%	Diff = 10.19 %%
+dim = 275	 Pos = 55.05 %%	Neg = 44.95 %%	Diff = 10.11 %%
+dim = 353	 Pos = 44.98 %%	Neg = 55.02 %%	Diff = 10.05 %%
+dim = 382	 Pos = 54.98 %%	Neg = 45.02 %%	Diff = 9.96 %%
+dim = 248	 Pos = 45.05 %%	Neg = 54.95 %%	Diff = 9.90 %%
+dim = 6	 Pos = 54.92 %%	Neg = 45.08 %%	Diff = 9.85 %%
+dim = 273	 Pos = 54.91 %%	Neg = 45.09 %%	Diff = 9.83 %%
+dim = 342	 Pos = 54.83 %%	Neg = 45.17 %%	Diff = 9.67 %%
+dim = 180	 Pos = 45.23 %%	Neg = 54.77 %%	Diff = 9.53 %%
+dim = 327	 Pos = 54.75 %%	Neg = 45.25 %%	Diff = 9.50 %%
+dim = 93	 Pos = 54.75 %%	Neg = 45.25 %%	Diff = 9.49 %%
+dim = 59	 Pos = 54.74 %%	Neg = 45.26 %%	Diff = 9.49 %%
+dim = 100	 Pos = 45.35 %%	Neg = 54.65 %%	Diff = 9.29 %%
+dim = 3	 Pos = 54.62 %%	Neg = 45.38 %%	Diff = 9.23 %%
+dim = 277	 Pos = 54.60 %%	Neg = 45.40 %%	Diff = 9.20 %%
+dim = 73	 Pos = 45.51 %%	Neg = 54.49 %%	Diff = 8.98 %%
+dim = 284	 Pos = 45.54 %%	Neg = 54.46 %%	Diff = 8.92 %%
+dim = 57	 Pos = 45.54 %%	Neg = 54.46 %%	Diff = 8.92 %%
+dim = 166	 Pos = 45.68 %%	Neg = 54.32 %%	Diff = 8.65 %%
+dim = 102	 Pos = 54.21 %%	Neg = 45.79 %%	Diff = 8.43 %%
+dim = 46	 Pos = 45.79 %%	Neg = 54.21 %%	Diff = 8.42 %%
+dim = 196	 Pos = 45.80 %%	Neg = 54.20 %%	Diff = 8.39 %%
+dim = 74	 Pos = 54.17 %%	Neg = 45.83 %%	Diff = 8.34 %%
+dim = 254	 Pos = 45.84 %%	Neg = 54.16 %%	Diff = 8.32 %%
+dim = 95	 Pos = 54.16 %%	Neg = 45.84 %%	Diff = 8.31 %%
+dim = 109	 Pos = 45.91 %%	Neg = 54.09 %%	Diff = 8.18 %%
+dim = 10	 Pos = 54.06 %%	Neg = 45.94 %%	Diff = 8.12 %%
+dim = 2	 Pos = 54.03 %%	Neg = 45.97 %%	Diff = 8.05 %%
+dim = 204	 Pos = 46.03 %%	Neg = 53.97 %%	Diff = 7.94 %%
+dim = 88	 Pos = 53.95 %%	Neg = 46.05 %%	Diff = 7.89 %%
+dim = 280	 Pos = 53.94 %%	Neg = 46.06 %%	Diff = 7.88 %%
+dim = 30	 Pos = 46.12 %%	Neg = 53.88 %%	Diff = 7.77 %%
+dim = 149	 Pos = 53.82 %%	Neg = 46.18 %%	Diff = 7.65 %%
+dim = 260	 Pos = 53.78 %%	Neg = 46.22 %%	Diff = 7.56 %%
+dim = 114	 Pos = 53.76 %%	Neg = 46.24 %%	Diff = 7.52 %%
+dim = 344	 Pos = 46.26 %%	Neg = 53.74 %%	Diff = 7.49 %%
+dim = 213	 Pos = 46.30 %%	Neg = 53.70 %%	Diff = 7.40 %%
+dim = 364	 Pos = 53.62 %%	Neg = 46.38 %%	Diff = 7.24 %%
+dim = 356	 Pos = 46.38 %%	Neg = 53.62 %%	Diff = 7.23 %%
+dim = 326	 Pos = 53.61 %%	Neg = 46.39 %%	Diff = 7.22 %%
+dim = 269	 Pos = 53.60 %%	Neg = 46.40 %%	Diff = 7.19 %%
+dim = 211	 Pos = 53.58 %%	Neg = 46.42 %%	Diff = 7.15 %%
+dim = 83	 Pos = 53.57 %%	Neg = 46.43 %%	Diff = 7.14 %%
+dim = 136	 Pos = 46.43 %%	Neg = 53.57 %%	Diff = 7.13 %%
+dim = 376	 Pos = 46.50 %%	Neg = 53.50 %%	Diff = 7.00 %%
+dim = 300	 Pos = 46.57 %%	Neg = 53.43 %%	Diff = 6.86 %%
+dim = 301	 Pos = 46.59 %%	Neg = 53.41 %%	Diff = 6.81 %%
+dim = 142	 Pos = 53.34 %%	Neg = 46.66 %%	Diff = 6.68 %%
+dim = 368	 Pos = 46.71 %%	Neg = 53.29 %%	Diff = 6.58 %%
+dim = 161	 Pos = 46.83 %%	Neg = 53.17 %%	Diff = 6.33 %%
+dim = 106	 Pos = 46.86 %%	Neg = 53.14 %%	Diff = 6.28 %%
+dim = 24	 Pos = 53.09 %%	Neg = 46.91 %%	Diff = 6.18 %%
+dim = 160	 Pos = 46.96 %%	Neg = 53.04 %%	Diff = 6.08 %%
+dim = 80	 Pos = 53.03 %%	Neg = 46.97 %%	Diff = 6.06 %%
+dim = 208	 Pos = 53.02 %%	Neg = 46.98 %%	Diff = 6.04 %%
+dim = 362	 Pos = 53.01 %%	Neg = 46.99 %%	Diff = 6.02 %%
+dim = 172	 Pos = 47.01 %%	Neg = 52.99 %%	Diff = 5.98 %%
+dim = 287	 Pos = 52.95 %%	Neg = 47.05 %%	Diff = 5.90 %%
+dim = 12	 Pos = 47.06 %%	Neg = 52.94 %%	Diff = 5.88 %%
+dim = 25	 Pos = 52.92 %%	Neg = 47.08 %%	Diff = 5.83 %%
+dim = 221	 Pos = 52.89 %%	Neg = 47.11 %%	Diff = 5.78 %%
+dim = 328	 Pos = 47.11 %%	Neg = 52.89 %%	Diff = 5.77 %%
+dim = 182	 Pos = 52.88 %%	Neg = 47.12 %%	Diff = 5.77 %%
+dim = 234	 Pos = 47.17 %%	Neg = 52.83 %%	Diff = 5.65 %%
+dim = 138	 Pos = 47.23 %%	Neg = 52.77 %%	Diff = 5.53 %%
+dim = 231	 Pos = 52.73 %%	Neg = 47.27 %%	Diff = 5.46 %%
+dim = 39	 Pos = 47.35 %%	Neg = 52.65 %%	Diff = 5.29 %%
+dim = 343	 Pos = 52.64 %%	Neg = 47.36 %%	Diff = 5.27 %%
+dim = 332	 Pos = 47.40 %%	Neg = 52.60 %%	Diff = 5.20 %%
+dim = 175	 Pos = 47.44 %%	Neg = 52.56 %%	Diff = 5.11 %%
+dim = 129	 Pos = 52.49 %%	Neg = 47.51 %%	Diff = 4.98 %%
+dim = 153	 Pos = 52.45 %%	Neg = 47.55 %%	Diff = 4.90 %%
+dim = 205	 Pos = 52.44 %%	Neg = 47.56 %%	Diff = 4.87 %%
+dim = 112	 Pos = 52.41 %%	Neg = 47.59 %%	Diff = 4.82 %%
+dim = 270	 Pos = 52.39 %%	Neg = 47.61 %%	Diff = 4.77 %%
+dim = 350	 Pos = 52.38 %%	Neg = 47.62 %%	Diff = 4.75 %%
+dim = 27	 Pos = 52.37 %%	Neg = 47.63 %%	Diff = 4.75 %%
+dim = 199	 Pos = 52.30 %%	Neg = 47.70 %%	Diff = 4.60 %%
+dim = 32	 Pos = 52.29 %%	Neg = 47.71 %%	Diff = 4.57 %%
+dim = 143	 Pos = 47.71 %%	Neg = 52.29 %%	Diff = 4.57 %%
+dim = 371	 Pos = 52.28 %%	Neg = 47.72 %%	Diff = 4.56 %%
+dim = 194	 Pos = 52.28 %%	Neg = 47.72 %%	Diff = 4.56 %%
+dim = 325	 Pos = 52.26 %%	Neg = 47.74 %%	Diff = 4.53 %%
+dim = 292	 Pos = 47.75 %%	Neg = 52.25 %%	Diff = 4.50 %%
+dim = 107	 Pos = 52.24 %%	Neg = 47.76 %%	Diff = 4.48 %%
+dim = 207	 Pos = 47.84 %%	Neg = 52.16 %%	Diff = 4.32 %%
+dim = 167	 Pos = 47.85 %%	Neg = 52.15 %%	Diff = 4.31 %%
+dim = 171	 Pos = 52.11 %%	Neg = 47.89 %%	Diff = 4.22 %%
+dim = 230	 Pos = 47.96 %%	Neg = 52.04 %%	Diff = 4.08 %%
+dim = 283	 Pos = 47.97 %%	Neg = 52.03 %%	Diff = 4.06 %%
+dim = 71	 Pos = 47.97 %%	Neg = 52.03 %%	Diff = 4.06 %%
+dim = 306	 Pos = 47.97 %%	Neg = 52.03 %%	Diff = 4.05 %%
+dim = 84	 Pos = 52.00 %%	Neg = 48.00 %%	Diff = 4.00 %%
+dim = 19	 Pos = 48.02 %%	Neg = 51.98 %%	Diff = 3.97 %%
+dim = 367	 Pos = 51.96 %%	Neg = 48.04 %%	Diff = 3.92 %%
+dim = 272	 Pos = 48.05 %%	Neg = 51.95 %%	Diff = 3.90 %%
+dim = 9	 Pos = 48.07 %%	Neg = 51.93 %%	Diff = 3.85 %%
+dim = 67	 Pos = 51.89 %%	Neg = 48.11 %%	Diff = 3.78 %%
+dim = 16	 Pos = 51.80 %%	Neg = 48.20 %%	Diff = 3.59 %%
+dim = 195	 Pos = 48.23 %%	Neg = 51.77 %%	Diff = 3.54 %%
+dim = 34	 Pos = 51.76 %%	Neg = 48.24 %%	Diff = 3.52 %%
+dim = 14	 Pos = 51.72 %%	Neg = 48.28 %%	Diff = 3.45 %%
+dim = 379	 Pos = 51.71 %%	Neg = 48.29 %%	Diff = 3.42 %%
+dim = 65	 Pos = 48.43 %%	Neg = 51.57 %%	Diff = 3.14 %%
+dim = 155	 Pos = 48.47 %%	Neg = 51.53 %%	Diff = 3.06 %%
+dim = 339	 Pos = 51.52 %%	Neg = 48.48 %%	Diff = 3.04 %%
+dim = 178	 Pos = 48.49 %%	Neg = 51.51 %%	Diff = 3.01 %%
+dim = 137	 Pos = 48.51 %%	Neg = 51.49 %%	Diff = 2.98 %%
+dim = 15	 Pos = 48.52 %%	Neg = 51.48 %%	Diff = 2.96 %%
+dim = 97	 Pos = 48.54 %%	Neg = 51.46 %%	Diff = 2.92 %%
+dim = 354	 Pos = 51.45 %%	Neg = 48.55 %%	Diff = 2.89 %%
+dim = 323	 Pos = 48.61 %%	Neg = 51.39 %%	Diff = 2.78 %%
+dim = 60	 Pos = 51.39 %%	Neg = 48.61 %%	Diff = 2.78 %%
+dim = 263	 Pos = 48.67 %%	Neg = 51.33 %%	Diff = 2.66 %%
+dim = 317	 Pos = 51.32 %%	Neg = 48.68 %%	Diff = 2.63 %%
+dim = 219	 Pos = 48.71 %%	Neg = 51.29 %%	Diff = 2.57 %%
+dim = 238	 Pos = 48.73 %%	Neg = 51.27 %%	Diff = 2.53 %%
+dim = 42	 Pos = 48.77 %%	Neg = 51.23 %%	Diff = 2.46 %%
+dim = 13	 Pos = 48.78 %%	Neg = 51.22 %%	Diff = 2.44 %%
+dim = 320	 Pos = 48.84 %%	Neg = 51.16 %%	Diff = 2.33 %%
+dim = 375	 Pos = 48.85 %%	Neg = 51.15 %%	Diff = 2.30 %%
+dim = 357	 Pos = 51.12 %%	Neg = 48.88 %%	Diff = 2.24 %%
+dim = 140	 Pos = 51.11 %%	Neg = 48.89 %%	Diff = 2.22 %%
+dim = 235	 Pos = 48.91 %%	Neg = 51.09 %%	Diff = 2.18 %%
+dim = 312	 Pos = 51.06 %%	Neg = 48.94 %%	Diff = 2.11 %%
+dim = 21	 Pos = 51.03 %%	Neg = 48.97 %%	Diff = 2.06 %%
+dim = 348	 Pos = 51.01 %%	Neg = 48.99 %%	Diff = 2.02 %%
+dim = 139	 Pos = 49.01 %%	Neg = 50.99 %%	Diff = 1.98 %%
+dim = 365	 Pos = 49.01 %%	Neg = 50.99 %%	Diff = 1.98 %%
+dim = 183	 Pos = 49.03 %%	Neg = 50.97 %%	Diff = 1.94 %%
+dim = 243	 Pos = 49.10 %%	Neg = 50.90 %%	Diff = 1.79 %%
+dim = 119	 Pos = 49.12 %%	Neg = 50.88 %%	Diff = 1.76 %%
+dim = 52	 Pos = 50.82 %%	Neg = 49.18 %%	Diff = 1.64 %%
+dim = 316	 Pos = 50.80 %%	Neg = 49.20 %%	Diff = 1.60 %%
+dim = 261	 Pos = 49.36 %%	Neg = 50.64 %%	Diff = 1.27 %%
+dim = 147	 Pos = 49.41 %%	Neg = 50.59 %%	Diff = 1.17 %%
+dim = 304	 Pos = 50.59 %%	Neg = 49.41 %%	Diff = 1.17 %%
+dim = 336	 Pos = 49.43 %%	Neg = 50.57 %%	Diff = 1.14 %%
+dim = 184	 Pos = 50.57 %%	Neg = 49.43 %%	Diff = 1.14 %%
+dim = 291	 Pos = 49.45 %%	Neg = 50.55 %%	Diff = 1.10 %%
+dim = 111	 Pos = 49.46 %%	Neg = 50.54 %%	Diff = 1.07 %%
+dim = 303	 Pos = 50.53 %%	Neg = 49.47 %%	Diff = 1.05 %%
+dim = 72	 Pos = 50.52 %%	Neg = 49.48 %%	Diff = 1.05 %%
+dim = 49	 Pos = 49.53 %%	Neg = 50.47 %%	Diff = 0.94 %%
+dim = 28	 Pos = 49.62 %%	Neg = 50.38 %%	Diff = 0.76 %%
+dim = 152	 Pos = 50.33 %%	Neg = 49.67 %%	Diff = 0.67 %%
+dim = 118	 Pos = 49.69 %%	Neg = 50.31 %%	Diff = 0.62 %%
+dim = 151	 Pos = 50.30 %%	Neg = 49.70 %%	Diff = 0.60 %%
+dim = 146	 Pos = 50.28 %%	Neg = 49.72 %%	Diff = 0.57 %%
+dim = 176	 Pos = 49.76 %%	Neg = 50.24 %%	Diff = 0.48 %%
+dim = 86	 Pos = 49.77 %%	Neg = 50.23 %%	Diff = 0.46 %%
+dim = 69	 Pos = 49.78 %%	Neg = 50.22 %%	Diff = 0.45 %%
+dim = 133	 Pos = 49.84 %%	Neg = 50.16 %%	Diff = 0.31 %%
+dim = 0	 Pos = 50.13 %%	Neg = 49.87 %%	Diff = 0.27 %%
+dim = 355	 Pos = 50.12 %%	Neg = 49.88 %%	Diff = 0.25 %%
+dim = 187	 Pos = 49.88 %%	Neg = 50.12 %%	Diff = 0.23 %%
+dim = 289	 Pos = 50.09 %%	Neg = 49.91 %%	Diff = 0.18 %%
+dim = 75	 Pos = 49.95 %%	Neg = 50.05 %%	Diff = 0.09 %%
+dim = 185	 Pos = 50.04 %%	Neg = 49.96 %%	Diff = 0.08 %%
+dim = 370	 Pos = 49.97 %%	Neg = 50.03 %%	Diff = 0.06 %%
+
+Out of 384 dimensions, 294 are unbalanced, percentage = 76.56 %%

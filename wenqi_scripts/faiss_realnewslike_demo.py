@@ -12,6 +12,10 @@ import numpy as np
 import pickle
 
 from multiprocessing.dummy import Pool as ThreadPool
+from sentence_transformers import SentenceTransformer
+
+#model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('/home/wejiang/.cache/torch/sentence_transformers/sentence-transformers_all-MiniLM-L6-v2')
 
 embedding_dim = 384
 num_files = 60
@@ -85,8 +89,6 @@ def get_line_from_file(fname, line_ID):
         # read line_ID th line from the file
         return content[line_ID]
 
-# TODO: creat file lines number dict; file line accumulation dict  
-
 
 index = faiss.IndexFlat(embedding_dim)
 
@@ -105,6 +107,7 @@ ID_dict_dir = os.path.join(index_parent_dir, ID_dict_fname)
 
 if not os.path.exists(index_dir):
     print("Index does not exist, creating index...")
+    sys.stdout.flush()
     i0 = 0
     t0 = time.time()
     ID_dict = dict()
@@ -126,6 +129,7 @@ if not os.path.exists(index_dir):
     save_obj(ID_dict, index_parent_dir, ID_dict_fname)
 elif not os.path.exists(ID_dict_dir + '.pkl'):
     print("Mapping dictionary does not exist, creat mapping...")
+    sys.stdout.flush()
     ID_dict = dict()
     for n in range(num_files):
         vec = np.fromfile('../data/computed_embeddings/realnewslike/c4-train.00{}-of-00512.data'.format(str(n).zfill(3)), dtype='float32')
@@ -138,9 +142,57 @@ elif not os.path.exists(ID_dict_dir + '.pkl'):
     save_obj(ID_dict, index_parent_dir, ID_dict_fname)
 else:
     print("loading", index_dir)
+    sys.stdout.flush()
     index = faiss.read_index(index_dir)
     ID_dict = load_obj(index_parent_dir, dbname + '_ID_map')
 
+# The MS MACRO query part
+print("\n\n==== Start querying using MS MACRO =====\n\n")
+sys.stdout.flush()
+
+
+sentences = [
+    'does xpress bet charge to deposit money in your account',
+    'how much is a cost to run disneyland',
+    'botulinum definition',
+    'do physicians pay for insurance from their salaries?',
+    'here there be dragons comic',
+    'blood diseases that are sexually transmitted',
+    'define bona fides',
+    'effects of detox juice cleanse',
+    'do prince harry and william have last names',
+    'can hives be a sign of pregnancy',
+    'causes of petechial hemorrhage',
+    'how long does it take to get your bsrn if you already have a bachelors degree',
+    'symptoms of ptsd in vietnam veterans',
+    'how coffee works quote',
+    'does contraction of the ciliary muscles shorten the lens',
+    'do spiders eat other animals',
+    'how long is the flight from chicago to cairo',
+    'how titanic facts',
+    'how to play blu ray discs',
+    'central city definition']
+
+sentence_embeddings = model.encode(sentences)
+
+print("Searching...")
+D_gt, I_gt = index.search(sentence_embeddings, 100)
+print("Distance (ground truth): ", D_gt[:10])
+print("Indices (ground truth): ", I_gt[:10])
+
+for q in range(10):
+    print("The nearest neighbor of the {} th query: ".format(q))
+    print("Query contents:\n", sentences[q])
+    print("Nearest neighbors:")
+    for i in range(10):
+        file_ID, line_ID = map_faiss_idx_to_file_and_line(I_gt[q][i], ID_dict)
+        print("i = {}\tFile ID = {}\tLine ID = {}".format(i, file_ID, line_ID))
+        line = get_line_from_file('../data/plain_c4/realnewslike/c4-train.00{}-of-00512.txt'.format(str(file_ID).zfill(3)), line_ID)
+        print(line)
+
+# The CC part
+print("\n\n==== Start querying using CC realnewslike corpus =====\n\n")
+sys.stdout.flush()
 
 vec = np.fromfile('../data/computed_embeddings/realnewslike/c4-train.00063-of-00512.data', dtype='float32')
 vec = vec.reshape(-1, embedding_dim)
@@ -161,3 +213,4 @@ for q in range(10):
         print("i = {}\tFile ID = {}\tLine ID = {}".format(i, file_ID, line_ID))
         line = get_line_from_file('../data/plain_c4/realnewslike/c4-train.00{}-of-00512.txt'.format(str(file_ID).zfill(3)), line_ID)
         print(line)
+

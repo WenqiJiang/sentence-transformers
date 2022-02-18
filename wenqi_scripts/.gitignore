@@ -1,2 +1,4 @@
 *.txt
 *.npy
+.nfs*
+.ipynb*

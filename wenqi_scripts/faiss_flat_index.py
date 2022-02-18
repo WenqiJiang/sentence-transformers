@@ -6,7 +6,7 @@ import numpy as np
 from multiprocessing.dummy import Pool as ThreadPool
 
 embedding_dim = 384
-vec = np.fromfile('../data/computed_embeddings/realnewslike/c4-train.00000-of-0051.data', dtype='float32')
+vec = np.fromfile('../data/computed_embeddings/realnewslike/c4-train.00000-of-00512.data', dtype='float32')
 vec = vec.reshape(-1, embedding_dim)
 
 print("Loaded vector shape: ", vec.shape)
