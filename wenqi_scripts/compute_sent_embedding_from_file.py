@@ -11,10 +11,11 @@ model = SentenceTransformer('/home/wejiang/.cache/torch/sentence_transformers/se
 
 # Wenqi: Seems the SBERT multi-GPU flow has some flow
 enable_multi_GPU = False
-device_num = 4
+GPU_ID = 4 # only if enable_multi_GPU = False
+device_num = 4 # only if enable_multi_GPU = True
 
 fname_ls = []
-for i in range(1):
+for i in range(16 + 32 * 1, 16 + 32 * 2):
     fname = 'c4-train.00{}-of-01024.txt'.format(str(i).zfill(3))
     fname_ls.append(fname) 
 print("File list: ", fname_ls)
@@ -48,10 +49,11 @@ for i in range(len(fname_ls)):
     t0 = time.time()
     if not enable_multi_GPU:
         if torch.cuda.is_available():
-            target_devices = ['cuda:{}'.format(i) for i in range(torch.cuda.device_count())][4]
+            # device = ['cuda:{}'.format(i) for i in range(torch.cuda.device_count())][GPU_ID]
+            device = 'cuda:{}'.format(GPU_ID)
         else:
             device = 'cpu'
-        sentence_embeddings = model.encode(sentences, batch_size = 128)
+        sentence_embeddings = model.encode(sentences, device=device,  batch_size = 128)
     else:
         if torch.cuda.is_available():
             target_devices = ['cuda:{}'.format(i) for i in range(torch.cuda.device_count())]
