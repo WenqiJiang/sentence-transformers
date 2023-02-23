@@ -11,13 +11,16 @@ model = SentenceTransformer('/home/wejiang/.cache/torch/sentence_transformers/se
 
 # Wenqi: Seems the SBERT multi-GPU flow has some flow
 enable_multi_GPU = False
-GPU_ID = 4 # only if enable_multi_GPU = False
-device_num = 4 # only if enable_multi_GPU = True
+GPU_ID = 7 # only if enable_multi_GPU = False
+device_num = 7 # only if enable_multi_GPU = True
 
 fname_ls = []
-for i in range(16 + 32 * 1, 16 + 32 * 2):
-    fname = 'c4-train.00{}-of-01024.txt'.format(str(i).zfill(3))
+start_fid = 352
+end_fid = 373
+for i in range(start_fid, end_fid):
+    fname = 'c4-train.0{}-of-01024.txt'.format(str(i).zfill(4))
     fname_ls.append(fname) 
+
 print("File list: ", fname_ls)
 # fname_ls = ['c4-train.00000-of-01024.txt']
 fname_out_ls = [fname[:-len('.txt')] + '.data' for fname in fname_ls]
@@ -25,10 +28,13 @@ dir_in = '../data/plain_c4/en'
 dir_out = '../data/computed_embeddings/en'
 
 for i in range(len(fname_ls)):
-    print("Processing ", fname)
-    sys.stdout.flush()
     fname = fname_ls[i]
     fname_out = fname_out_ls[i]
+    print("Processing ", fname)
+    if os.path.exists(os.path.join(dir_out, fname_out)):
+        print("{} already exists, skip...".format(fname_out))
+        continue
+    sys.stdout.flush()
     sentences = []
     with open(os.path.join(dir_in, fname)) as f:
         for line in f:
@@ -53,6 +59,7 @@ for i in range(len(fname_ls)):
             device = 'cuda:{}'.format(GPU_ID)
         else:
             device = 'cpu'
+        print(device)
         sentence_embeddings = model.encode(sentences, device=device,  batch_size = 128)
     else:
         if torch.cuda.is_available():
@@ -68,6 +75,7 @@ for i in range(len(fname_ls)):
     print("\nTime consumption computing {} embeddings = {} seconds, throughput = {}".format(
         len(sentences), t1 - t0, len(sentences) / (t1 - t0)))
     
+    print("saving to file...")
     sentence_embeddings = sentence_embeddings.astype('float32')
     if os.path.exists(os.path.join(dir_out, fname_out)): 
         os.remove(os.path.join(dir_out, fname_out))
@@ -77,7 +85,9 @@ for i in range(len(fname_ls)):
     print("Example embeddings:")
     for sentence, embedding in zip(sentences[:print_num], sentence_embeddings[:print_num]):
         print("Sentence:", sentence)
-        print("Embedding:", embedding)
+        print("Embedding (first 10 dim):", embedding[:10])
         print("Sum ||x||2:", np.sum(np.square(embedding)))
         print("")
     sys.stdout.flush()
+    t2 = time.time()
+    print("\nCompute and save: {} sec".format(t2 - t0))
